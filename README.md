@@ -5,7 +5,7 @@
 ******
 
 ### Logo:
-![Logo](<Images/Website Logo.png>)
+![Logo](<Images/Website Logo.jpg>)
 
 ### Description:
 Welcome to the world of Stardew Valley! A game where you can grow and manage your own farm, decorate your home, customize your character, meet new people, and so much more. With countless activities and quests to explore, you’ll never run out of things to do in the valley. 
@@ -37,6 +37,7 @@ Sources: This page provides all the sources used to make the website.
 ******
 
 ### Use of JavaScript in the Project
+JavaScript is used in our website to allow users to select their favorite bachelors and bachelorettes. When a user clicks the heart icon beside their chosen character, the heart changes to red, indicating that the character has been marked as one of their favorites. This interactive feature enhances user engagement and adds a fun, personalized touch to the website.
 
 ******
 
