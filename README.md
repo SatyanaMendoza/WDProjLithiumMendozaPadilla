@@ -1,6 +1,7 @@
 # WDProjLithiumMendozaPadilla
 
 ## The Stardew Encyclopedia
+### The Ultimate Reference for Every Farmer
 
 ******
 
