@@ -44,21 +44,21 @@ JavaScript is used in our website to allow users to select their favorite bachel
 
 ### Wireframes
 #### Home Page:
-![Home Page](<Images/Home Page.png>)
+![Home Page](<public/assets/Home Page.png>)
 #### Backstory Page:
-![Backstory Page](Images/Backstory.png)
+![Backstory Page](public/assets/Backstory.png)
 #### Expanded Backstory Page:
-![Backstory Page Expanded](<Images/Backstory_ Expanded.png>)
+![Backstory Page Expanded](<public/assets/Backstory_ Expanded.png>)
 #### The Valley Page:
-![The Valley](<Images/The Valley.png>)
+![The Valley](<public/assets/The Valley.png>)
 #### Bachelors Page:
-![Bachelors](Images/Bachelors.png)
+![Bachelors](public/assets/Bachelors.png)
 #### Bachelorettes Page:
-![Bachelorettes](Images/Bachelorettes.png)
+![Bachelorettes](public/assets//Bachelorettes.png)
 #### Other Villagers Page:
-![Other Villagers](<Images/Other Villagers.png>)
+![Other Villagers](<public/assets/Other Villagers.png>)
 #### Sources Page:
-![Sources Page](<Images/Sources Page.png>)
+![Sources Page](<public/assets/Sources Page.png>)
 
 ******
 
