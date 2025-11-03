@@ -6,7 +6,7 @@
 ******
 
 ### Logo:
-![Logo](<Images/Website Logo.jpg>)
+![Logo](<public/assets/Website Logo.jpg>)
 
 ### Description:
 Welcome to the world of Stardew Valley! A game where you can grow and manage your own farm, decorate your home, customize your character, meet new people, and so much more. With countless activities and quests to explore, you’ll never run out of things to do in the valley. 
