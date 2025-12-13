@@ -4,5 +4,6 @@ function toggleMenu() {
 }
 
 function toggleFavorite(btn) {
-btn.classList.toggle('active');
+    const favorite = document.getElementById('heart')
+    favorite.classList.toggle('active');
 }

@@ -94,7 +94,8 @@ flex-direction: column;
 margin-bottom: 5px; 
 text-align: left;
 text-decoration: underline;
-font-size: 2rem;
+font-size: 3rem;
+margin-top: 5px;
 }
 
 .text-image {

@@ -85,6 +85,16 @@ flex: 1;
 overflow-y: auto;
 }
 
+.heart {
+font-size: 24px;
+cursor: pointer;
+}
+
+
+.heart.active { 
+color: red; 
+}
+
 footer {
 background: #6b3f1d;
 color: #f2d18b;
