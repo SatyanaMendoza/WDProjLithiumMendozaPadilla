@@ -3,7 +3,7 @@ margin: 0;
 font-family: monospace;
 background: #f2d18b;
 color: #3b2a1a;
-min-height: 100vh; 
+height: 100vh;  
 display: flex;
 flex-direction: column;
 }
@@ -79,4 +79,16 @@ display: flex;
 justify-content: space-between;
 padding: 15px;
 flex-shrink: 0;
+}
+
+footer div {
+color: #f2d18b;
+font-size: 1rem;
+font-weight: 700;
+}
+
+footer a {
+color: #f2d18b;
+font-size: 1rem;
+font-weight: 700;
 }

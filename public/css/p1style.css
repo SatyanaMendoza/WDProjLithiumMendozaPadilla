@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: monospace;
+background: #f2d18b;
+color: #3b2a1a;
+height: 100vh; 
+display: flex;
+flex-direction: column;
+}
+
+.top-bar {
+background: #59c3f0;
+display: flex;
+align-items: center;
+padding: 0 20px;;
+justify-content: space-between;
+gap: 10px;   
+text-align: center;
+color: #1277d8;
+font-size: 1rem;
+flex-shrink: 0;
+position: relative;
+}
+
+.logo { 
+width: 70px; 
+margin-right: 10px; 
+}
+
+.menu {
+margin-left: auto;
+font-size: 48px;
+cursor: pointer;
+margin-right: 10px;
+}
+
+
+.dropdown {
+background: #2fa4dd;
+position: absolute;
+top: 100%;
+right: 0;
+width: 220px;
+height: auto;
+min-width: 200px;
+display: none;
+z-index: 1000;         
+flex-direction: column;    
+}
+
+
+.dropdown a {
+display: block;
+color: white;
+font-weight: 900;
+padding: 10px;
+text-decoration: none;
+font-size: 1.5rem;
+text-align: center;
+border-bottom: 1px solid #59c3f0;
+}
+
+.dropdown.active {
+display: flex;
+}
+
+.dropdown .close {
+align-self: flex-end;
+cursor: pointer;
+font-size: 25px;
+margin-bottom: 10px;
+color: whitesmoke;
+}
+
+.hidden { 
+display: none; 
+}
+
+.content {
+display: flex;
+gap: 20px;
+padding: 20px;
+flex: 1;
+overflow-y: auto;
+flex-direction: column;
+}
+
+
+.heading {
+margin-bottom: 5px; 
+text-align: left;
+text-decoration: underline;
+font-size: 2rem;
+}
+
+.text-image {
+display: flex;
+gap: 20px;               
+margin-top: 20px;
+flex-wrap: wrap;
+margin-bottom: 20px;
+align-items: center;
+}
+
+.text {
+flex: 2;
+font-size: 1rem;
+}
+
+.image-box {
+background: #59c3f0;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+justify-content: center;
+align-items: center;
+width: 60%;        
+max-width: 600px;
+margin: 10px auto;
+color: whitesmoke;
+font-size: 25px;
+font-weight: 700;
+flex: 1; 
+}
+
+.image-box img {
+max-width: 100%;
+height: auto;
+display: block;
+margin-bottom: 10px;
+}
+
+.image { 
+width: 90%; 
+margin: auto;
+}
+
+
+footer {
+background: #6b3f1d;
+color: #f2d18b;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+flex-shrink: 0;
+}
+
+footer div {
+color: #f2d18b;
+font-size: 1rem;
+font-weight: 700;
+}
+
+footer a {
+color: #f2d18b;
+font-size: 1rem;
+font-weight: 700;
+}

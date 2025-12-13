@@ -38,7 +38,7 @@ Sources: This page provides all the sources used to make the website.
 ******
 
 ### Use of JavaScript in the Project
-JavaScript is used in our website to allow users to select their favorite bachelors and bachelorettes. When a user clicks the heart icon beside their chosen character, the heart changes to red, indicating that the character has been marked as one of their favorites. This interactive feature enhances user engagement and adds a fun, personalized touch to the website.
+JavaScript is used in our website to allow users to select their favorite bachelors and bachelorettes. When a user clicks the heart icon beside their chosen character, the heart changes to red, indicating that the character has been marked as one of their favorites. This interactive feature enhances user engagement and adds a fun, personalized touch to the website. Lastly, JavaScript is also used to enable the menu button.
 
 ******
 
