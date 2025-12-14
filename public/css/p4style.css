@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'Pixel Font';
+    src: url(../css/stardew-valley-stonks.ttf);
+}
+
 * {
   box-sizing: border-box;
+  font-family: 'Pixel Font';
 }
 
 body {
