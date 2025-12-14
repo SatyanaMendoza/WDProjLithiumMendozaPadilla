@@ -16,20 +16,38 @@ flex-direction: column;
 background: #59c3f0;
 display: flex;
 align-items: center;
-padding: 0 20px;;
-justify-content: space-between;
+padding: 0 15px;
+position: relative;
+height: 80px;          
+min-height: 80px;
+justify-content: center;
 gap: 10px;   
 text-align: center;
-color: #1277d8;
-font-size: 1rem;
 flex-shrink: 0;
-position: relative;
+flex-direction: row;
 }
+
+.top-bar > * {
+flex-shrink: 0;
+}
+
+.top-bar h1 {
+font-size: 2rem;
+color: #1277d8;
+text-align: center;
+margin: 0;
+flex-shrink: 1;
+}
+
 
 .logo { 
 width: 70px; 
 margin-right: 10px; 
+flex-shrink: 0; 
+align-items: left;
+height: auto;
 }
+
 
 .menu {
 margin-left: auto;
@@ -102,6 +120,7 @@ display: flex;
 justify-content: space-between;
 padding: 15px;
 flex-shrink: 0;
+flex-wrap: wrap;
 }
 
 footer div {
@@ -114,4 +133,70 @@ footer a {
 color: #f2d18b;
 font-size: 1rem;
 font-weight: 700;
+}
+
+@media (max-width: 768px) {
+
+  .top-bar {
+    flex-direction: row;
+    padding: 10px;
+    height: 70px;
+    justify-content: space-around;
+  }
+
+  .top-bar h1 {
+    font-size: 1.4rem;
+    flex-shrink: 1;
+    margin: 0 10px;
+  }
+
+  .logo {
+    width: 55px;
+    margin-right: 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+
+  .nav-bar {
+    display: none;   
+  }
+
+  .menu {
+    display: block; 
+    margin-left: auto;
+    font-size: 36px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .content {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+
+  .intro {
+    font-size: 2.2rem;
+  }
+
+  .info-box {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
 }
