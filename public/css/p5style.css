@@ -99,8 +99,12 @@ display: none;
 }
 
 .content { 
+display: flex;
+gap: 20px;
+padding: 20px;
 flex: 1;
 overflow-y: auto;
+flex-direction: column;
 }
 
 .heading {
@@ -109,6 +113,25 @@ text-align: left;
 margin-top: 5px;
 text-decoration: underline;
 font-size: 3rem;
+}
+
+p {
+font-size: 1rem;
+font-weight: 900;
+}
+
+
+.heart {
+font-size: 30px;
+cursor: pointer;
+color: white;
+transition: transform 0.5s ease, color 0.5s ease;
+}
+
+
+.heart.active { 
+color: red; 
+transform: scale(1.2);
 }
 
 .text-image {
@@ -126,7 +149,7 @@ font-size: 1rem;
 }
 
 .image-box {
-background: #84bbee;
+background: #ba8f54;
 padding: 20px;
 border-radius: 10px;
 text-align: center;
@@ -231,7 +254,16 @@ font-weight: 700;
     padding: 15px;
   }
 
-  h4 {
+  .intro {
+    font-size: 2.2rem;
+  }
+
+  .info-box {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+    h4 {
     font-size: 1.2rem;
   }
 
