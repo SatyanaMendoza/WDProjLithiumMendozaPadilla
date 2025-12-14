@@ -219,6 +219,22 @@ font-weight: 700;
 
   .image {
     width: 100%;
+    height: auto;
+  }
+
+  .text-image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-box {
+    order: -1; 
+    width: 90%; 
+  }
+
+  .text {
+    order: 0; 
+    text-align: center;
   }
 
   footer {
