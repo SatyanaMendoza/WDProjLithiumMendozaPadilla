@@ -120,8 +120,9 @@ font-size: 1rem;
 font-weight: 900;
 }
 
+
 .heart {
-font-size: 24px;
+font-size: 30px;
 cursor: pointer;
 color: white;
 transition: transform 0.5s ease, color 0.5s ease;
@@ -148,7 +149,7 @@ font-size: 1rem;
 }
 
 .image-box {
-background: #59c3f0;
+background: #84bbee;
 padding: 20px;
 border-radius: 10px;
 text-align: center;
@@ -157,10 +158,11 @@ align-items: center;
 width: 60%;        
 max-width: 600px;
 margin: 10px auto;
-color: #6b3f1d;
 font-size: 1rem;
 font-weight: 700;
 flex: 1; 
+display: flex;
+flex-direction: column;
 }
 
 .image-box img {
@@ -173,6 +175,19 @@ margin-bottom: 10px;
 .image { 
 width: 90%; 
 margin: auto;
+}
+
+h4{
+font-size: 2rem;
+color: #3b2a1a;
+font-weight: 900;
+text-align: center;
+
+}
+
+h5{
+font-size:1.5rem;
+color: #3b2a1a;
 }
 
 footer {
@@ -248,8 +263,32 @@ font-weight: 700;
     font-size: 1.2rem;
   }
 
+    h4 {
+    font-size: 1.2rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
   .image {
     width: 100%;
+    height: auto;
+  }
+
+  .text-image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-box {
+    order: -1; 
+    width: 90%; 
+  }
+
+  .text {
+    order: 0; 
+    text-align: center;
   }
 
   footer {
