@@ -9,22 +9,25 @@
         <title>The Stardew Encyclopedia</title>
         <link rel="stylesheet" href="./public/css/index.css">
         <link rel="icon" href="./public/assets/Website Logo.jpg" sizes="32x32" type="image/png">
-        <script src="../javascript/menu.js" defer></script>
+        <script src="./public/javascript/menu.js" defer></script>
     </head>
 
     <body>
         <header class="top-bar">
             <img src="./public/assets/WebsiteLogo_Transparent.png" class="logo">
             <h1>THE STARDEW ENCYCLOPEDIA</h1>
-            <div class="menu" onclick="toggleMenu()">☰</div>
 
-            <nav id="dropdown" class="dropdown">
-                <a href="./p1-backstory.html">BACKSTORY</a>
-                <a href="./p2-valley.html">THE VALLEY</a>
-                <a href="./p3-bachelors.html">BACHELORS</a>
-                <a href="./p4-bachelorettes.html">BACHELORETTES</a>
-                <a href="./p5-othervillagers.html">OTHER VILLAGERS</a>
-            </nav>
+            <div class="menu-wrapper">
+                <div class="menu" onclick="toggleMenu()">☰</div>
+
+                <nav id="dropdown" class="dropdown">
+                    <a href="./p1-backstory.html">BACKSTORY</a>
+                    <a href="./p2-valley.html">THE VALLEY</a>
+                    <a href="./p3-bachelors.html">BACHELORS</a>
+                    <a href="./p4-bachelorettes.html">BACHELORETTES</a>
+                    <a href="./p5-othervillagers.html">OTHER VILLAGERS</a>
+                </nav>
+            </div>
         </header>
 
         <nav class="nav-bar">

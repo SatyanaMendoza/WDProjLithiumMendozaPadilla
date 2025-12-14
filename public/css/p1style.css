@@ -204,10 +204,6 @@ font-weight: 700;
     letter-spacing: 3px;
   }
 
-  .nav-bar {
-    display: none;   
-  }
-
   .menu {
     display: block; 
     margin-left: auto;
