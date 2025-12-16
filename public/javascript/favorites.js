@@ -10,6 +10,7 @@ function toggleFavorite(el) {
     el.textContent = isActive ? "A FAVORITE! ❤" : "YOUR FAVORITE? ❤";
 }
 
+//Change text once heart is clicked
 window.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.heart').forEach(heart => {
         const id = heart.dataset.id;
@@ -22,14 +23,4 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-const music = document.getElementById("bg-music");
-
-function startMusic() {
-  music.play();
-  document.removeEventListener("click", startMusic);
-  document.removeEventListener("keydown", startMusic);
-}
-
-document.addEventListener("click", startMusic);
-document.addEventListener("keydown", startMusic);
     
