@@ -208,6 +208,11 @@ font-weight: 700;
     padding: 15px;
   }
 
+   .source {
+    width: 90%;
+    font-size: 0.9rem;
+   }
+
   footer {
     flex-direction: column;
     align-items: center;
