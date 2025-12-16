@@ -112,6 +112,10 @@ color: whitesmoke;
 display: none; 
 }
 
+audio {
+display: none;
+}
+
 
 .nav-bar {
 background: #1277d8;
