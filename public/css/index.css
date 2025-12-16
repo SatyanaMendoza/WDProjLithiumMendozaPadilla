@@ -54,10 +54,10 @@ height: auto;
 }
 
 .titlelogo {
-  position: relative;
-  left: -10px;
-  flex-shrink: 0;
-  max-width: 2000px;
+flex-shrink: 0;
+max-width: 2000px;
+width: 100%;
+height:auto;
 }
 
 .menu-wrapper {
@@ -251,6 +251,11 @@ font-weight: 700;
   .content {
     font-size: 1.2rem;
     padding: 15px;
+  }
+
+  .titlelogo {
+    max-width: 1000px;
+    margin: 0 auto;
   }
 
   .image {
