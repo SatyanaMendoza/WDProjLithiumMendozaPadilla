@@ -69,8 +69,16 @@ https://www.canva.com/design/DAG3KJkepFc/iQsnv6U50LsiiV5fGsHExA/edit?utm_content
 # Q3 Project Proposal Update Plan
 
 ### Design and Narrative for the HTML:
-We plan to use HTML to create a poll and a quiz for our website.  Firstly, the poll will be used to collect information on the users’ Stardew Valley favorites.  This poll may include questions asking them what their favorites from the game may be, such as their favorite farm animal, bachelor, bachelorette, or season.  After completing the poll survey, the screen will display how many other participants chose the same favorites as the user for each category.  
+We plan to use HTML to create a poll and a quiz for our website.  Firstly, the poll will be used to collect information on the users’ Stardew Valley favorites.  This poll may include questions asking them what their favorites from the game may be, such as their favorite farm animal, bachelor, bachelorette, or season.  After completing the poll survey, the screen will display how many other participants chose the same favorites as the user for each category.  We plan to use JavaScript in order to save their votes and cimput for their totals.
 
-Secondly, HTML will be used to create a multiple-choice quiz about the Stardew Valley trivia that can be found on our website.  Once users are done reading through our encyclopedia, they can take this quiz to test their knowledge on all of our website’s categories, namely: the Background story, the Valley, the Bachelors and Bachelorettes, and the Villagers.  Then, their scores will be tallied, and they will be classified as either a beginner, intermediate, or professional farmer based on their scores.  Scores of 6 and below will classify the user as a beginner farmer, scores of 7 to 11 will distinguish them as intermediate, and scores of 12 and above will classify them as professional farmers.
+Secondly, HTML will be used to create a multiple-choice quiz about the Stardew Valley trivia that can be found on our website.  Once users are done reading through our encyclopedia, they can take this quiz to test their knowledge on all of our website’s categories, namely: the Background story, the Valley, the Bachelors and Bachelorettes, and the Villagers.  Then, their scores will be tallied, and they will be classified as either a beginner, intermediate, or professional farmer based on their scores.  Scores of 6 and below will classify the user as a beginner farmer, scores of 7 to 11 will distinguish them as intermediate, and scores of 12 and above will classify them as professional farmers.  JavaScript will be used to tally their scores and classify them.
+
+### Webpages
+
+The website will consist of three newly designed webpages that work together using data collected from an HTML form. The first webpage will contain the HTML form used to gather user input through a poll and quiz about Stardew Valley. Users will answer questions about their favorite in-game elements and trivia, and when they submit, their responses will be saved on the user’s computer using the browser’s local storage.
+
+The second webpage will retrieve the saved data and display the user’s results. For the poll, this page will show the user’s selected favorites and how many other users chose the same answers. For the quiz, it will display the user’s total score and their classification as a beginner, intermediate, or professional farmer.
+
+The third webpage will use the saved data to present a summary or review page. This page will allow users to revisit their previous poll answers and quiz results, showing a clear overview of their responses and scores without requiring them to re-enter information.
 
 ### Wireframes
