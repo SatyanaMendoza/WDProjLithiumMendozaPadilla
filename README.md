@@ -83,4 +83,37 @@ The second webpage will retrieve the saved data and display the user’s results
 
 The third webpage will use the saved data to present a summary or review page. This page will allow users to revisit their poll answers and quiz results, showing a clear overview of their responses and scores. The poll summarizes the number of times that the user has agreed with the majority. As for the quiz, it will display the overall score of the quiz as well as the user's quiz ranking with being either a beginner, intermediate, or professional farmer.
 
+******
+
 ### Wireframes
+#### Updated Home Page:
+![Updated Home Page](<public/assets/Home Page_ Scrolled.png>)
+#### Poll Page:
+![Poll Page](<public/assets/Poll Page.png>)
+#### Poll Page (Expanded):
+![Poll Page (Expanded)](<public/assets/Poll Page_ Expanded.png>)
+#### Poll and Quiz Page (Scrolled):
+![Poll and Quiz Page (Scrolled)](<public/assets/Poll and Quiz Page_ Scrolled.png>)
+#### Poll Results Page:
+![Poll Results Page](<public/assets/Poll Results Page.png>)
+#### Poll Results Page (Scrolled):
+![Poll Results Page (Scrolled)](<public/assets/Poll Results Page_ Scrolled.png>)
+#### Poll Summary Page:
+![Poll Summary Page](<public/assets/Poll Summary Page.png>)
+#### Quiz Page:
+![Quiz Page](<public/assets/Quiz Page.png>)
+#### Quiz Page (Expanded):
+![Quiz Page (Expanded)](<public/assets/Quiz Page_ Expanded.png>)
+#### Quiz Results Page:
+![Quiz Results Page](<public/assets/Quiz Results Page.png>)
+#### Quiz Results Page (Scrolled):
+![Quiz Resu lts Page (Scrolled)](<public/assets/Quiz Results Page_ Scrolled.png>)
+#### Quiz Summary Page:
+![Quiz Summary Page](<public/assets/Quiz Summary Page.png>)
+
+******
+
+### Link to Canva File (New Wireframes)
+https://www.canva.com/design/DAG97bPCuDI/PazqlmdT1YVdIBa9sB5dMQ/edit?utm_content=DAG97bPCuDI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+******
