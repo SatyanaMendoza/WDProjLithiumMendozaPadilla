@@ -88,6 +88,11 @@ border-bottom: 1px solid #59c3f0;
 display: flex;
 }
 
+.dropdown a:hover {
+text-decoration: underline;
+color: #055578;
+}
+
 .dropdown .close {
 align-self: flex-end;
 cursor: pointer;

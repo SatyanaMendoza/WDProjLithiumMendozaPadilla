@@ -86,6 +86,11 @@ text-align: center;
 border-bottom: 1px solid #59c3f0;
 }
 
+.dropdown a:hover {
+text-decoration: underline;
+color: #055578;
+}
+
 .dropdown.active {
 display: flex;
 }
