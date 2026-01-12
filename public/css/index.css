@@ -137,11 +137,15 @@ font-size: 1rem;
 letter-spacing: 3px;
 font-weight: 900;
 flex-shrink: 0;
+transition: background-color 0.3s ease-out, font-size 0.3s ease-out; 
 }
 
 nav.nav-bar a:hover {
 color: #055578;
 font-size: 1.3rem;
+transition: background-color 0.3s;
+transition: font-size 0.5s;
+transition-delay: 0.1s;
 }
 
 
