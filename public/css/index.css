@@ -119,7 +119,7 @@ display: none;
 
 .nav-bar {
 background: #1277d8;
-padding: 5px;
+padding: 10px;
 text-align: center;
 display: flex;
 gap: 100px;
@@ -137,6 +137,11 @@ font-size: 1rem;
 letter-spacing: 3px;
 font-weight: 900;
 flex-shrink: 0;
+}
+
+nav.nav-bar a:hover {
+color: #055578;
+font-size: 1.3rem;
 }
 
 
