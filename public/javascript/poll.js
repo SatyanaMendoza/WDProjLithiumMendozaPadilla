@@ -5,9 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("yes-count");
     const noCount = 
         document.getElementById("no-count");
-    let yesVotes = 0;
-    let noVotes = 0;
+    let yesVotes = parseInt(localStorage.getItem("yesVotes")) || 0;
+    let noVotes =  parseInt(localStorage.getItem("noVotes")) ||0;
 
+    updateResults()
+    
     pollForm.addEventListener("submit", function (e) {
 
         // It will help to prevent the submission of 
@@ -18,8 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (userVote === "yes") {
             yesVotes++;
+             localStorage.setItem("yesVotes", yesVotes);
+
         } else if (userVote === "no") {
             noVotes++;
+             localStorage.setItem("noVotes", noVotes);
         }
         updateResults();
     });
