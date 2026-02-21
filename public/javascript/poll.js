@@ -1,3 +1,9 @@
+//For the dropdown menu
+function toggleMenu() {
+  const menu = document.getElementById('dropdown');
+  menu.classList.toggle('active');
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     
     function initPoll(formId, oneCountId, twoCountId, threeCountId, fourCountId, storage)
