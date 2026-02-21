@@ -127,13 +127,13 @@ margin-top: 5px;
 }
 
 .quiz-container {
-    background: #fff6d6;
-    border: 4px solid #d89b4d;
+    background: #a4f6ff;
+    border: 4px solid #4dc5d8;
     border-radius: 12px;
     padding: 25px;
     max-width: 800px;
     margin: 20px auto;
-    box-shadow: 4px 4px 0px #c47f2c;
+    box-shadow: 4px 4px 0px #2c91c4;
 }
 
 .quiz-container h1 {
@@ -153,8 +153,8 @@ margin-top: 5px;
 }
 
 .options label {
-    background: #f2d18b;
-    border: 3px solid #b87333;
+    background: #cee7f4;
+    border: 3px solid #2c91c4;
     padding: 20px;
     text-align: center;
     cursor: pointer;
@@ -164,7 +164,7 @@ margin-top: 5px;
 }
 
 .options label:hover {
-    background: #ffe7a8;
+    background: #ffffff;
     transform: scale(1.03);
 }
 
@@ -259,6 +259,12 @@ footer a {
     font-size: 36px;
     cursor: pointer;
     margin-right: 10px;
+  }
+
+  .heading {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .quiz-container {

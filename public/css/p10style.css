@@ -256,10 +256,22 @@ font-weight: 700;
     margin-right: 10px;
   }
 
-  section {
+  .heading {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+   section {
         flex-direction: column;
         gap: 20px;
         margin: 15px;
+        align-items: center;
+    }
+
+    section .score-rank {
+        align-items: center;
+        text-align: center;
     }
 
     section .image-box {
