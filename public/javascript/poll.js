@@ -5,6 +5,9 @@ function toggleMenu() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+    // Sofia if ur seeing this basicaly you have to chagne the id number (to the poll number) and in html you just change
+    //  the form id "poll-form(then number)"" you make sure to change the number there also if youre 
+    // gonna work on that my bad i changed the js to make it a little better for the thingy </3
     const polls = [
         { id: "1", opts: { one: "Spring", two: "Summer", three: "Fall", four: "Winter" } },
         { id: "2", opts: { one: "Festival of Ice: Witness festive ice sculptures and igloos, and join the Ice Fishing Contest!", 
