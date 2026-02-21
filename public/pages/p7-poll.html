@@ -3,22 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="The Stardew Valley: Sources">
+        <meta name="description" content="Pick Your Favorites!">
         <meta name="keywords" content="Stardew Valley, Stardew, Farmer, Valley">
         <meta name="author" content="Satyana Margaret S. Mendoza and Sofia Ashlie Q. Padilla">
         <title>The Stardew Encyclopedia</title>
-        <link rel="stylesheet" href="../css/p1style.css">
+        <link rel="stylesheet" href="../css/p7style.css">
         <link rel="icon" href="../assets/Website Logo.jpg" sizes="32x32" type="image/png">
-        <script src="../javascript/menu.js" defer></script>
+        <script src="../javascript/poll.js" defer></script>
     </head>
 
     <body>
+
         <header class="top-bar">
             <img src="../assets/WebsiteLogo_Transparent.png" class="logo">
             <h1>THE STARDEW ENCYCLOPEDIA</h1>
             <div class="menu" onclick="toggleMenu()">☰</div>
             
             <nav id="dropdown" class="dropdown">
+                <a href="../../index.html">HOME</a>
                 <a href="./p1-backstory.html">BACKSTORY</a>
                 <a href="./p2-valley.html">THE VALLEY</a>
                 <a href="./p3-bachelors.html">BACHELORS</a>
@@ -27,599 +29,604 @@
             </nav>
         </header>
 
-    <body>
-        <div class="container">
-        <h1 class="poll-question">
-        Poll question 1
-                </h1>
-                <form id="poll-form" class="poll-form">
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="one"> Yes
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="two"> No
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="three"> Yes1
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="four"> No1
-                    </label>
-                    <button type="submit" 
-                            class="vote-button">
-                    Vote
-                    </button>
-                </form>
-                <div id="results" class="results">
-                    <h2 class="results-title">
-                    Results
-                    </h2>
-                    <div class="results-count">
-                        <p>Yes: 
-                        <span id="one-count" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No: 
-                        <span id="two-count" 
+        <main class="content">
+
+            <audio controls autoplay loop>
+            <source src="../assets/Stardew Valley Overture.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+
+            <div class="container">
+            <h1 class="poll-question">
+            Poll question 1
+                    </h1>
+                    <form id="poll-form" class="poll-form">
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="one"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="two"> No
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="three"> Yes1
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="four"> No1
+                        </label>
+                        <button type="submit" 
+                                class="vote-button">
+                        Vote
+                        </button>
+                    </form>
+                    <div id="results" class="results">
+                        <h2 class="results-title">
+                        Results
+                        </h2>
+                        <div class="results-count">
+                            <p>Yes: 
+                            <span id="one-count" 
                                     class="count">0
-                        </span>
-                        </p>
-                        <p>Yes1: 
-                        <span id="three-count" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No1: 
-                        <span id="four-count" 
+                            </span>
+                            </p>
+                            <p>No: 
+                            <span id="two-count" 
+                                        class="count">0
+                            </span>
+                            </p>
+                            <p>Yes1: 
+                            <span id="three-count" 
                                     class="count">0
-                        </span>
-                        </p>
+                            </span>
+                            </p>
+                            <p>No1: 
+                            <span id="four-count" 
+                                        class="count">0
+                            </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <div class="container">
-        <h1 class="poll-question2">
-        Poll question 2
-                </h1>
-                <form id="poll-form2" class="poll-form2">
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="one"> Yes
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="two"> No
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="three"> Yes1
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="four"> No1
-                    </label>
-                    <button type="submit" 
-                            class="vote-button">
-                    Vote
-                    </button>
-                </form>
-                <div id="results" class="results">
-                    <h2 class="results-title">
-                    Results
-                    </h2>
-                    <div class="results-count">
-                        <p>Yes: 
-                        <span id="one-count2" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No: 
-                        <span id="two-count2" 
+            <div class="container">
+            <h1 class="poll-question2">
+            Poll question 2
+                    </h1>
+                    <form id="poll-form2" class="poll-form2">
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="one"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="two"> No
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="three"> Yes1
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="four"> No1
+                        </label>
+                        <button type="submit" 
+                                class="vote-button">
+                        Vote
+                        </button>
+                    </form>
+                    <div id="results" class="results">
+                        <h2 class="results-title">
+                        Results
+                        </h2>
+                        <div class="results-count">
+                            <p>Yes: 
+                            <span id="one-count2" 
                                     class="count">0
-                        </span>
-                        </p>
-                        <p>Yes1: 
-                        <span id="three-count2" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No1: 
-                        <span id="four-count2" 
+                            </span>
+                            </p>
+                            <p>No: 
+                            <span id="two-count2" 
+                                        class="count">0
+                            </span>
+                            </p>
+                            <p>Yes1: 
+                            <span id="three-count2" 
                                     class="count">0
-                        </span>
-                        </p>
+                            </span>
+                            </p>
+                            <p>No1: 
+                            <span id="four-count2" 
+                                        class="count">0
+                            </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <div class="container">
-        <h1 class="poll-question3">
-        Poll question 3
-                </h1>
-                <form id="poll-form3" class="poll-form3">
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="one"> Yes
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="two"> No
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="three"> Yes1
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="four"> No1
-                    </label>
-                    <button type="submit" 
-                            class="vote-button">
-                    Vote
-                    </button>
-                </form>
-                <div id="results" class="results">
-                    <h2 class="results-title">
-                    Results
-                    </h2>
-                    <div class="results-count">
-                        <p>Yes: 
-                        <span id="one-count3" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No: 
-                        <span id="two-count3" 
+            <div class="container">
+            <h1 class="poll-question3">
+            Poll question 3
+                    </h1>
+                    <form id="poll-form3" class="poll-form3">
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="one"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="two"> No
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="three"> Yes1
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="four"> No1
+                        </label>
+                        <button type="submit" 
+                                class="vote-button">
+                        Vote
+                        </button>
+                    </form>
+                    <div id="results" class="results">
+                        <h2 class="results-title">
+                        Results
+                        </h2>
+                        <div class="results-count">
+                            <p>Yes: 
+                            <span id="one-count3" 
                                     class="count">0
-                        </span>
-                        </p>
-                        <p>Yes1: 
-                        <span id="three-count3" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No1: 
-                        <span id="four-count3" 
+                            </span>
+                            </p>
+                            <p>No: 
+                            <span id="two-count3" 
+                                        class="count">0
+                            </span>
+                            </p>
+                            <p>Yes1: 
+                            <span id="three-count3" 
                                     class="count">0
-                        </span>
-                        </p>
+                            </span>
+                            </p>
+                            <p>No1: 
+                            <span id="four-count3" 
+                                        class="count">0
+                            </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <div class="container">
-        <h1 class="poll-question4">
-        Poll question 4
-                </h1>
-                <form id="poll-form4" class="poll-form4">
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="one"> Yes
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="two"> No
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="three"> Yes1
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="four"> No1
-                    </label>
-                    <button type="submit" 
-                            class="vote-button">
-                    Vote
-                    </button>
-                </form>
-                <div id="results" class="results">
-                    <h2 class="results-title">
-                    Results
-                    </h2>
-                    <div class="results-count">
-                        <p>Yes: 
-                        <span id="one-count4" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No: 
-                        <span id="two-count4" 
+            <div class="container">
+            <h1 class="poll-question4">
+            Poll question 4
+                    </h1>
+                    <form id="poll-form4" class="poll-form4">
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="one"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="two"> No
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="three"> Yes1
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="four"> No1
+                        </label>
+                        <button type="submit" 
+                                class="vote-button">
+                        Vote
+                        </button>
+                    </form>
+                    <div id="results" class="results">
+                        <h2 class="results-title">
+                        Results
+                        </h2>
+                        <div class="results-count">
+                            <p>Yes: 
+                            <span id="one-count4" 
                                     class="count">0
-                        </span>
-                        </p>
-                        <p>Yes1: 
-                        <span id="three-count4" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No1: 
-                        <span id="four-count4" 
+                            </span>
+                            </p>
+                            <p>No: 
+                            <span id="two-count4" 
+                                        class="count">0
+                            </span>
+                            </p>
+                            <p>Yes1: 
+                            <span id="three-count4" 
                                     class="count">0
-                        </span>
-                        </p>
+                            </span>
+                            </p>
+                            <p>No1: 
+                            <span id="four-count4" 
+                                        class="count">0
+                            </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <div class="container">
-        <h1 class="poll-question5">
-        Poll question 5
-                </h1>
-                <form id="poll-form5" class="poll-form5">
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="one"> Yes
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="two"> No
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="three"> Yes1
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="four"> No1
-                    </label>
-                    <button type="submit" 
-                            class="vote-button">
-                    Vote
-                    </button>
-                </form>
-                <div id="results" class="results">
-                    <h2 class="results-title">
-                    Results
-                    </h2>
-                    <div class="results-count">
-                        <p>Yes: 
-                        <span id="one-count5" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No: 
-                        <span id="two-count5" 
+            <div class="container">
+            <h1 class="poll-question5">
+            Poll question 5
+                    </h1>
+                    <form id="poll-form5" class="poll-form5">
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="one"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="two"> No
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="three"> Yes1
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="four"> No1
+                        </label>
+                        <button type="submit" 
+                                class="vote-button">
+                        Vote
+                        </button>
+                    </form>
+                    <div id="results" class="results">
+                        <h2 class="results-title">
+                        Results
+                        </h2>
+                        <div class="results-count">
+                            <p>Yes: 
+                            <span id="one-count5" 
                                     class="count">0
-                        </span>
-                        </p>
-                        <p>Yes1: 
-                        <span id="three-count5" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No1: 
-                        <span id="four-count5" 
+                            </span>
+                            </p>
+                            <p>No: 
+                            <span id="two-count5" 
+                                        class="count">0
+                            </span>
+                            </p>
+                            <p>Yes1: 
+                            <span id="three-count5" 
                                     class="count">0
-                        </span>
-                        </p>
+                            </span>
+                            </p>
+                            <p>No1: 
+                            <span id="four-count5" 
+                                        class="count">0
+                            </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <div class="container">
-        <h1 class="poll-question6">
-        Poll question 6
-                </h1>
-                <form id="poll-form6" class="poll-form6">
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="one"> Yes
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="two"> No
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="three"> Yes1
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="four"> No1
-                    </label>
-                    <button type="submit" 
-                            class="vote-button">
-                    Vote
-                    </button>
-                </form>
-                <div id="results" class="results">
-                    <h2 class="results-title">
-                    Results
-                    </h2>
-                    <div class="results-count">
-                        <p>Yes: 
-                        <span id="one-count6" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No: 
-                        <span id="two-count6" 
+            <div class="container">
+            <h1 class="poll-question6">
+            Poll question 6
+                    </h1>
+                    <form id="poll-form6" class="poll-form6">
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="one"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="two"> No
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="three"> Yes1
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="four"> No1
+                        </label>
+                        <button type="submit" 
+                                class="vote-button">
+                        Vote
+                        </button>
+                    </form>
+                    <div id="results" class="results">
+                        <h2 class="results-title">
+                        Results
+                        </h2>
+                        <div class="results-count">
+                            <p>Yes: 
+                            <span id="one-count6" 
                                     class="count">0
-                        </span>
-                        </p>
-                        <p>Yes1: 
-                        <span id="three-count6" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No1: 
-                        <span id="four-count6" 
+                            </span>
+                            </p>
+                            <p>No: 
+                            <span id="two-count6" 
+                                        class="count">0
+                            </span>
+                            </p>
+                            <p>Yes1: 
+                            <span id="three-count6" 
                                     class="count">0
-                        </span>
-                        </p>
+                            </span>
+                            </p>
+                            <p>No1: 
+                            <span id="four-count6" 
+                                        class="count">0
+                            </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <div class="container">
-        <h1 class="poll-question7">
-        Poll question 7
-                </h1>
-                <form id="poll-form7" class="poll-form7">
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="one"> Yes
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="two"> No
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="three"> Yes1
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="four"> No1
-                    </label>
-                    <button type="submit" 
-                            class="vote-button">
-                    Vote
-                    </button>
-                </form>
-                <div id="results" class="results">
-                    <h2 class="results-title">
-                    Results
-                    </h2>
-                    <div class="results-count">
-                        <p>Yes: 
-                        <span id="one-count7" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No: 
-                        <span id="two-count7" 
+            <div class="container">
+            <h1 class="poll-question7">
+            Poll question 7
+                    </h1>
+                    <form id="poll-form7" class="poll-form7">
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="one"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="two"> No
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="three"> Yes1
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="four"> No1
+                        </label>
+                        <button type="submit" 
+                                class="vote-button">
+                        Vote
+                        </button>
+                    </form>
+                    <div id="results" class="results">
+                        <h2 class="results-title">
+                        Results
+                        </h2>
+                        <div class="results-count">
+                            <p>Yes: 
+                            <span id="one-count7" 
                                     class="count">0
-                        </span>
-                        </p>
-                        <p>Yes1: 
-                        <span id="three-count7" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No1: 
-                        <span id="four-count7" 
+                            </span>
+                            </p>
+                            <p>No: 
+                            <span id="two-count7" 
+                                        class="count">0
+                            </span>
+                            </p>
+                            <p>Yes1: 
+                            <span id="three-count7" 
                                     class="count">0
-                        </span>
-                        </p>
+                            </span>
+                            </p>
+                            <p>No1: 
+                            <span id="four-count7" 
+                                        class="count">0
+                            </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <div class="container">
-        <h1 class="poll-question8">
-        Poll question 8
-                </h1>
-                <form id="poll-form8" class="poll-form8">
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="one"> Yes
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="two"> No
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="three"> Yes1
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="four"> No1
-                    </label>
-                    <button type="submit" 
-                            class="vote-button">
-                    Vote
-                    </button>
-                </form>
-                <div id="results" class="results">
-                    <h2 class="results-title">
-                    Results
-                    </h2>
-                    <div class="results-count">
-                        <p>Yes: 
-                        <span id="one-count8" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No: 
-                        <span id="two-count8" 
+            <div class="container">
+            <h1 class="poll-question8">
+            Poll question 8
+                    </h1>
+                    <form id="poll-form8" class="poll-form8">
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="one"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="two"> No
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="three"> Yes1
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="four"> No1
+                        </label>
+                        <button type="submit" 
+                                class="vote-button">
+                        Vote
+                        </button>
+                    </form>
+                    <div id="results" class="results">
+                        <h2 class="results-title">
+                        Results
+                        </h2>
+                        <div class="results-count">
+                            <p>Yes: 
+                            <span id="one-count8" 
                                     class="count">0
-                        </span>
-                        </p>
-                        <p>Yes1: 
-                        <span id="three-count8" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No1: 
-                        <span id="four-count8" 
+                            </span>
+                            </p>
+                            <p>No: 
+                            <span id="two-count8" 
+                                        class="count">0
+                            </span>
+                            </p>
+                            <p>Yes1: 
+                            <span id="three-count8" 
                                     class="count">0
-                        </span>
-                        </p>
+                            </span>
+                            </p>
+                            <p>No1: 
+                            <span id="four-count8" 
+                                        class="count">0
+                            </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <div class="container">
-        <h1 class="poll-question9">
-        Poll question 9
-                </h1>
-                <form id="poll-form9" class="poll-form9">
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="one"> Yes
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="two"> No
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="three"> Yes1
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="four"> No1
-                    </label>
-                    <button type="submit" 
-                            class="vote-button">
-                    Vote
-                    </button>
-                </form>
-                <div id="results" class="results">
-                    <h2 class="results-title">
-                    Results
-                    </h2>
-                    <div class="results-count">
-                        <p>Yes: 
-                        <span id="one-count9" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No: 
-                        <span id="two-count9" 
+            <div class="container">
+            <h1 class="poll-question9">
+            Poll question 9
+                    </h1>
+                    <form id="poll-form9" class="poll-form9">
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="one"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="two"> No
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="three"> Yes1
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="four"> No1
+                        </label>
+                        <button type="submit" 
+                                class="vote-button">
+                        Vote
+                        </button>
+                    </form>
+                    <div id="results" class="results">
+                        <h2 class="results-title">
+                        Results
+                        </h2>
+                        <div class="results-count">
+                            <p>Yes: 
+                            <span id="one-count9" 
                                     class="count">0
-                        </span>
-                        </p>
-                        <p>Yes1: 
-                        <span id="three-count9" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No1: 
-                        <span id="four-count9" 
+                            </span>
+                            </p>
+                            <p>No: 
+                            <span id="two-count9" 
+                                        class="count">0
+                            </span>
+                            </p>
+                            <p>Yes1: 
+                            <span id="three-count9" 
                                     class="count">0
-                        </span>
-                        </p>
+                            </span>
+                            </p>
+                            <p>No1: 
+                            <span id="four-count9" 
+                                        class="count">0
+                            </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <div class="container">
-        <h1 class="poll-question10">
-        Poll question 10
-                </h1>
-                <form id="poll-form10" class="poll-form10">
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="one"> Yes
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="two"> No
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="three"> Yes1
-                    </label>
-                    <label>
-                        <input type="radio" 
-                            name="vote" 
-                            value="four"> No1
-                    </label>
-                    <button type="submit" 
-                            class="vote-button">
-                    Vote
-                    </button>
-                </form>
-                <div id="results" class="results">
-                    <h2 class="results-title">
-                    Results
-                    </h2>
-                    <div class="results-count">
-                        <p>Yes: 
-                        <span id="one-count10" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No: 
-                        <span id="two-count10" 
+            <div class="container">
+            <h1 class="poll-question10">
+            Poll question 10
+                    </h1>
+                    <form id="poll-form10" class="poll-form10">
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="one"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="two"> No
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="three"> Yes1
+                        </label>
+                        <label>
+                            <input type="radio" 
+                                name="vote" 
+                                value="four"> No1
+                        </label>
+                        <button type="submit" 
+                                class="vote-button">
+                        Vote
+                        </button>
+                    </form>
+                    <div id="results" class="results">
+                        <h2 class="results-title">
+                        Results
+                        </h2>
+                        <div class="results-count">
+                            <p>Yes: 
+                            <span id="one-count10" 
                                     class="count">0
-                        </span>
-                        </p>
-                        <p>Yes1: 
-                        <span id="three-count10" 
-                                class="count">0
-                        </span>
-                        </p>
-                        <p>No1: 
-                        <span id="four-count10" 
+                            </span>
+                            </p>
+                            <p>No: 
+                            <span id="two-count10" 
+                                        class="count">0
+                            </span>
+                            </p>
+                            <p>Yes1: 
+                            <span id="three-count10" 
                                     class="count">0
-                        </span>
-                        </p>
+                            </span>
+                            </p>
+                            <p>No1: 
+                            <span id="four-count10" 
+                                        class="count">0
+                            </span>
+                            </p>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <script src="../javascript/poll.js"></script>
-
+        </main>
     </body>
     
 

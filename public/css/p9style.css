@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'Pixel Font';
+    src: url(../assets/stardew-valley-stonks.ttf);
+}
+* {
+  font-family: 'Pixel Font';
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+    background: #f2d18b;
+    color: #3b2a1a;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    background: #59c3f0;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    position: relative;
+    height: 80px;          
+    min-height: 80px;
+    justify-content: center;
+    gap: 10px;   
+    text-align: center;
+    flex-shrink: 0;
+    flex-direction: row;
+}
+
+.top-bar > * {
+    flex-shrink: 0;
+}
+
+.top-bar h1 {
+    font-size: 2rem;
+    color: #1277d8;
+    text-align: center;
+    margin: 0;
+    flex-shrink: 1;
+}
+
+.logo { 
+    width: 70px; 
+    margin-right: 10px; 
+    flex-shrink: 0; 
+    align-items: left;
+    height: auto;
+}
+
+.menu {
+    margin-left: auto;
+    font-size: 48px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.dropdown {
+    background: #2fa4dd;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 220px;
+    height: auto;
+    min-width: 200px;
+    display: none;
+    z-index: 1000;         
+    flex-direction: column;    
+}
+
+
+.dropdown a {
+    display: block;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #59c3f0;
+}
+
+.dropdown.active {
+    display: flex;
+}
+
+.dropdown a:hover {
+    text-decoration: underline;
+    color: #055578;
+}
+
+.dropdown .close {
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.hidden { 
+    display: none; 
+}
+
+audio {
+    display: none;
+}
+
+.content { 
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.heading {
+margin-bottom: 5px; 
+text-align: left;
+text-decoration: underline;
+font-size: 3rem;
+margin-top: 5px;
+}
+
+.quiz-container {
+    background: #fff6d6;
+    border: 4px solid #d89b4d;
+    border-radius: 12px;
+    padding: 25px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 4px 4px 0px #c47f2c;
+}
+
+.quiz-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.options input[type="radio"] {
+    display: none;
+}
+
+.options label {
+    background: #f2d18b;
+    border: 3px solid #b87333;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: 0.2s ease;
+}
+
+.options label:hover {
+    background: #ffe7a8;
+    transform: scale(1.03);
+}
+
+.correct {
+    background-color: #9be89b !important;
+    border-color: #2e8b57 !important;
+}
+
+.wrong {
+    background-color: #ff9c9c !important;
+    border-color: #b22222 !important;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+a.view-summary {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 12px 25px;
+    background-color: #59c3f0;
+    color: #0c3396;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+}
+
+a.view-summary:hover {
+    background-color: #1277d8;
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+footer {
+    background: #6b3f1d;
+    color: #f2d18b;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+footer div {
+    color: #f2d18b;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+footer a {
+    color: #f2d18b;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+
+  .top-bar {
+    flex-direction: row;
+    padding: 10px;
+    height: 70px;
+    justify-content: space-around;
+  }
+
+  .top-bar h1 {
+    font-size: 1.4rem;
+    flex-shrink: 1;
+    margin: 0 10px;
+  }
+
+  .logo {
+    width: 55px;
+    margin-right: 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+
+  .menu {
+    display: block; 
+    margin-left: auto;
+    font-size: 36px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .quiz-container {
+        padding: 15px;
+        margin: 15px;
+        max-width: 95%;
+    }
+
+    .quiz-container h1 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .options {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .options label {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    a.view-summary {
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+}
