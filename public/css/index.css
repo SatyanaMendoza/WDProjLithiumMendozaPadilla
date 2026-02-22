@@ -79,7 +79,8 @@ transition: transform 0.3s ease;
 }
 
 .menu-wrapper:has(.active) .menu {
-  color: #1277d8;
+color: #1277d8;
+transform: rotate(180deg);
 }
 
 .dropdown {
@@ -387,7 +388,7 @@ font-weight: 700;
   }
 
   .activity-container {
-    flex-direction: column; /* Stack them on mobile */
+    flex-direction: column;
     align-items: center;
     padding: 0 20px;
   }

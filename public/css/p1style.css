@@ -51,6 +51,16 @@ align-items: left;
 height: auto;
 }
 
+.menu-wrapper {
+position: relative;
+display: none;
+}
+
+.top-bar:has(.active) .menu {
+color: #1277d8;
+transform: rotate(180deg);
+}
+
 .menu {
 margin-left: auto;
 font-size: 48px;

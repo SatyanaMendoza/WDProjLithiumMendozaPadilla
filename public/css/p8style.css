@@ -60,6 +60,11 @@ margin-right: 10px;
 transition: transform 0.3s ease;
 }
 
+.top-bar:has(.active) .menu {
+color: #1277d8;
+transform: rotate(180deg);
+}
+
 .dropdown {
 background: #2fa4dd;
 position: absolute;

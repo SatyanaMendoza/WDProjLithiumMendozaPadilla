@@ -13,7 +13,7 @@ margin: 0;
 font-family: monospace;
 background: #f2d18b;
 color: #3b2a1a;
-min-height: 100vh;
+height: 100vh;
 display: flex;
 flex-direction: column;
 }
@@ -54,13 +54,17 @@ align-items: left;
 height: auto;
 }
 
-
 .menu {
 margin-left: auto;
 font-size: 48px;
 cursor: pointer;
 margin-right: 10px;
 transition: transform 0.3s ease;
+}
+
+.top-bar:has(.active) .menu {
+color: #1277d8;
+transform: rotate(180deg);
 }
 
 .dropdown {

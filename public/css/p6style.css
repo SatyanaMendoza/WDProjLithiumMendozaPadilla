@@ -13,7 +13,7 @@ margin: 0;
 font-family: monospace;
 background: #3b2a1a;
 color: #f2d18b;
-min-height: 100vh;
+height: 100vh;
 height: auto;
 display: flex;
 flex-direction: column;
@@ -61,6 +61,11 @@ font-size: 48px;
 cursor: pointer;
 margin-right: 10px;
 transition: transform 0.3s ease;
+}
+
+.top-bar:has(.active) .menu {
+color: #1277d8;
+transform: rotate(180deg);
 }
 
 .dropdown {
