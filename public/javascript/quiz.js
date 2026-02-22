@@ -49,24 +49,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function showResult(question, selected, correctAnswer) {
-
     const options = question.querySelectorAll('input[type="radio"]');
     const resultText = question.querySelector(".result");
 
     options.forEach(option => {
         const label = option.parentElement;
 
+        label.classList.remove("correct", "wrong");
+
         if (option.value === correctAnswer) {
             label.classList.add("correct");
-        } else {
+        } 
+        else if (option.value === selected && selected !== correctAnswer) {
             label.classList.add("wrong");
         }
     });
 
-    if (selected === correctAnswer) {
-        resultText.textContent = "You got it correct!";
-    } else {
-        resultText.textContent = "You got it wrong!";
+    if (resultText) {
+        if (selected === correctAnswer) {
+            resultText.textContent = "You got it correct!";
+            resultText.style.color = "#307a27";
+        } else {
+            resultText.textContent = "You got it wrong!";
+            resultText.style.color = "#841e28";
+        }
     }
 }
 

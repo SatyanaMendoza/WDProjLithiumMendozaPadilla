@@ -5,50 +5,27 @@ function toggleMenu() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-
     let score = 0;
-    let totalQuestions = 0;
+    const totalPossible = 15;
 
-    for (let key in localStorage) {
+    const correctAnswers = {
+        1: "two", 2: "four", 3: "three", 4: "one", 5: "three",
+        6: "four", 7: "one", 8: "four", 9: "three", 10: "two",
+        11: "two", 12: "three", 13: "three", 14: "one", 15: "four"
+    };
 
-        if (key.startsWith("question")) {
-
-            totalQuestions++;
-
-            const savedAnswer = localStorage.getItem(key);
-
-            // Extract question number from key
-            const questionNumber = key.replace("question", "");
-
-            const correctAnswers = {
-                1: "three",
-                2: "one",
-                3: "four",
-                4: "two",
-                5: "one",
-                6: "three",
-                7: "two",
-                8: "four",
-                9: "one",
-                10: "three",
-                11: "two",
-                12: "four",
-                13: "one",
-                14: "three",
-                15: "two"
-            };
-
-            if (savedAnswer === correctAnswers[questionNumber]) {
-                score++;
-            }
+    for (let i = 1; i <= totalPossible; i++) {
+        const savedAnswer = localStorage.getItem("question" + i);
+        
+        if (savedAnswer === correctAnswers[i]) {
+            score++;
         }
     }
 
     document.getElementById("final-score").textContent =
-        `You scored ${score} out of ${totalQuestions}!`;
+        `You scored ${score} out of ${totalPossible}!`;
 
     let rank;
-
     if (score <= 5) {
         rank = "Beginner Farmer 🌱";
     } else if (score <= 10) {
