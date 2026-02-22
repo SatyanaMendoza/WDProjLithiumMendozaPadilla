@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let rank;
     if (score <= 5) {
         rank = "Beginner Farmer 🌱";
-    } else if (score <= 10) {
+    } else if (score <= 12) {
         rank = "Intermediate Farmer 🌾";
     } else {
         rank = "Professional Farmer 👑";
