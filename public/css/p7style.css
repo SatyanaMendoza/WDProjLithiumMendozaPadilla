@@ -134,9 +134,11 @@ background: #a4f6ff;
 border: 4px solid #4dc5d8;
 border-radius: 12px;
 padding: 25px;
-max-width: 800px;
-margin: 20px auto;
 box-shadow: 4px 4px 0px #2c91c4;
+box-sizing: border-box;
+max-width: 850px;
+width: 100%;
+margin: 20px auto; 
 }
 
 .container h1 {
@@ -198,21 +200,24 @@ transform: none;
 
 #viewResultsBtn {
 display: inline-block;
-margin: 0 auto;
-padding: 15px 30px;
-font-size: 1.2rem;
 background: #59c3f0;
-border: none;
-border-radius: 8px;
-cursor: pointer;
-transition: 0.2s ease;
-text-decoration: none; 
-color: inherit;
+color: #0c3396;
+border: 4px solid #1277d8;
+border-radius: 12px;
+padding: 15px 40px;
+text-align: center;
+text-decoration: none;
+font-size: 1.3rem;
+font-weight: 900;
+box-shadow: 4px 4px 0px #09569d;
+transition: all 0.3s ease;
 }
 
 #viewResultsBtn:hover {
-background: #2fa4dd;
+background: #ffffff;
 transform: scale(1.05);
+box-shadow: 6px 6px 0px #055578;
+color: #1277d8;
 }
 
 
@@ -301,6 +306,12 @@ font-weight: 700;
   .poll-form label {
     font-size: 1.1rem;
     padding: 15px;
+  }
+
+  #viewResultsBtn {
+    width: 80%;
+    font-size: 1.1rem;
+    padding: 12px 20px;
   }
 
   footer {
