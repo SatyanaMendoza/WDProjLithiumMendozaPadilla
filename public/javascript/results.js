@@ -115,22 +115,25 @@ document.addEventListener("DOMContentLoaded", function () {
         agreementElement.textContent = `You have agreed with the majority ${agreeCount} times!`;
     }
 
-    // Reset Button Logic
-    const resetBtn = document.getElementById("resetPollBtn");
-    if (resetBtn) {
-        resetBtn.addEventListener("click", function() {
-            if (confirm("Reset all your votes? This will remove all your votes previously and this cannot be undone!")) {
-                
-                const keys = Object.keys(localStorage);
-                
-                keys.forEach(key => {
-                    if (key.startsWith("user_voted_")) {
-                        localStorage.removeItem(key);
-                    }
-                });
+    document.getElementById("resetPollBtn").addEventListener("click", function() {
+      if (confirm("Reset all your votes? This will remove your counts from the total!")) {
+          
+          for (let i = 1; i <= 10; i++) {
+              const userChoice = localStorage.getItem(`user_voted_${i}`);
+              
+              if (userChoice) {
+                  const globalKey = `global_poll_${i}_${userChoice}`;
+                  let currentCount = parseInt(localStorage.getItem(globalKey)) || 0;
 
-                window.location.href = "p7-poll.html";
-            }
-        });
-    }
+                  if (currentCount > 0) {
+                      localStorage.setItem(globalKey, currentCount - 1);
+                  }
+
+                  localStorage.removeItem(`user_voted_${i}`);
+              }
+          }
+
+          window.location.href = "p7-poll.html";
+      }
+  });
 });
