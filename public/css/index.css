@@ -165,8 +165,8 @@ transition: background-color 0.3s ease-out, font-size 0.3s ease-out;
 nav.nav-bar a:hover {
 color: #0c3396;
 font-size: 1.3rem;
-transition: background-color 0.3s;
-transition: font-size 0.5s;
+transition: background-color 0.2s;
+transition: font-size 0.2s;
 transition-delay: 0.1s;
 }
 
