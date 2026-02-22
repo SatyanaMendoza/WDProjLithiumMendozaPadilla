@@ -1,11 +1,10 @@
 //For the dropdown menu
 function toggleMenu() {
-    const menu = document.getElementById('dropdown');
-    menu.classList.toggle('active');
+  const menu = document.getElementById('dropdown');
+  menu.classList.toggle('active');
 }
 
 document.addEventListener("DOMContentLoaded", function () {
- 
     const polls = [
         { id: "1", opts: { one: "Spring", two: "Summer", three: "Fall", four: "Winter" } },
         { id: "2", opts: { one: "Festival of Ice: Witness festive ice sculptures and igloos, and join the Ice Fishing Contest!", 
@@ -33,6 +32,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const existingVote = localStorage.getItem(userVotedKey);
 
         if (existingVote) {
+            const radioToCheck = form.querySelector(`input[value="${existingVote}"]`);
+            if (radioToCheck) radioToCheck.checked = true;
+            
             lockAndShowResults(form, poll, existingVote);
         }
 
@@ -40,12 +42,12 @@ document.addEventListener("DOMContentLoaded", function () {
             input.addEventListener('change', function () {
                 const choice = this.value;
                 
-                // Save Global Count
+                // SAVE GLOBAL COUNT (Permanently)
                 const globalKey = `global_poll_${poll.id}_${choice}`;
                 let currentCount = parseInt(localStorage.getItem(globalKey)) || 0;
                 localStorage.setItem(globalKey, currentCount + 1);
 
-                // Save User Choice
+                // SAVE USER CHOICE (Permanently)
                 localStorage.setItem(userVotedKey, choice);
 
                 lockAndShowResults(form, poll, choice);
@@ -55,14 +57,15 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function lockAndShowResults(form, poll, userChoice) {
+    const existingMsg = form.querySelector('.poll-result-msg');
+    if (existingMsg) existingMsg.remove();
+
     form.classList.add('locked');
     form.querySelectorAll('input').forEach(i => i.disabled = true);
 
-    // Highlight user's choice
     const selectedInput = form.querySelector(`input[value="${userChoice}"]`);
     if (selectedInput) selectedInput.parentElement.classList.add('selected-choice');
 
-    // Calculate Majority
     const keys = ["one", "two", "three", "four"];
     let maxVotes = 0;
     let winners = [];
@@ -77,7 +80,6 @@ function lockAndShowResults(form, poll, userChoice) {
         }
     });
 
-    // Display Message
     if (maxVotes > 0) {
         const msg = document.createElement('p');
         msg.className = "poll-result-msg";
