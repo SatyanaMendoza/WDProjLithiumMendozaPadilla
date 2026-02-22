@@ -35,7 +35,24 @@
             Your browser does not support the audio element.
             </audio>
 
-            <h2 class="heading">THE STARDEW VOTING BARN: Results</h2>
+            <h2 class="heading">THE STARDEW VOTING BARN: Summary</h2>
+
+            <section class="summary-section">
+                <div class="verdict-container">
+                    <p class="p-small">The verdict is in...</p>
+                    <p id="agreement-score" class="p-large"></p>
+                </div>
+
+                <div class="voting-summary-box">
+                    <h3>Your Voting Summary</h3>
+                    <div id="choices-list" class="scroll-container"></div>
+                </div>
+            </section>
+
+            <div class="button-group">
+                <button class="poll-btn" onclick="window.location.href='./p7-poll.html'">Back to Polls</button>
+                <button id="resetPollBtn" class="poll-btn reset-style">Reset My Votes</button>
+            </div>
 
         </main>
 

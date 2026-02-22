@@ -22,9 +22,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    // Display the score accurately
     document.getElementById("final-score").textContent =
         `You scored ${score} out of ${totalPossible}!`;
 
+    // Rank Logic
     let rank;
     if (score <= 5) {
         rank = "Beginner Farmer 🌱";
