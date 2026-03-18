@@ -117,3 +117,13 @@ The third webpage will use the saved data to present a summary or review page. T
 https://www.canva.com/design/DAG97bPCuDI/PazqlmdT1YVdIBa9sB5dMQ/edit?utm_content=DAG97bPCuDI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ******
+# FINAL MODIFICATION PROPOSAL
+
+We plan to incorporate updating on the data in localStorage in our The Stardew Smarts Challenge (quiz) activity.  After submitting their first attempt, an alert will pop up to ask the user whether they want to update their score and rank by taking another quiz.  Their scores on the quiz will be used to determine the effectiveness of our encyclopedia website.  
+
+As for the removing aspect of our website, this has already been implemented in our quiz and poll section. We have previously coded our website so that the user can retake these forms, thus removing their previous attempts.
+
+Furthermore, we plan to update other aspects of our website in order to improve its responsiveness according to previous feedback.  We plan to lessen the amount of scrolling needed within our site’s webpages (Bachelors, Bachelorette, and Other Villagers) by adding interactive icons of the characters, which can be clicked to read the chosen characters’ information.  After clicking on an icon, users can click arrows to get from one character to another.
+
+Aside from this, we also want to add a downward arrow in our homepage to indicate the user to scroll down, so that they may see the activities at the end of the webpage.  When the user hovers over the activities’ buttons, their corresponding descriptions will be displayed so that users will know what these activities are about.  Furthermore, we want to improve the website’s design by adding a color gradient to the background.  We also want to add images to the choices of the quiz and poll sections of our website for more visual appeal.
+
