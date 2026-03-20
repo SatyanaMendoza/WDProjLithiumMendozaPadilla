@@ -131,51 +131,46 @@ Aside from this, we also want to add a downward arrow in our homepage to indicat
 ### Wireframes
 #### Home Page:
 ![Home Page](
-#### Backstory Page:
-![Backstory Page](public/assets/Backstory.png)
-#### Expanded Backstory Page:
-![Backstory Page Expanded](<public/assets/Backstory_ Expanded.png>)
-#### The Valley Page:
-![The Valley](<public/assets/The Valley.png>)
-#### Bachelors Page:
-![Bachelors](public/assets/Bachelors.png)
-#### Bachelorettes Page:
-![Bachelorettes](public/assets//Bachelorettes.png)
-#### Other Villagers Page:
-![Other Villagers](<public/assets/Other Villagers.png>)
-#### Sources Page:
-![Sources Page](<public/assets/Sources Page.png>)
 
-![Home](<public/assets/Bachelors icons.png>)
+#### Home Page With Arrow
 
+#### Home Page With Arrow
+![Backstory w gradient](<public/assets/Backstory with gradient.png>)
+
+#### End of Home Page 
+##### (Shows description of activities after hovering)
 ![Hover](<public/assets/hover.png>)
 
+#### New Quiz Page 
+##### (Options with Background Images)
 ![Quiz](<public/assets/Quiz w bg.png>)
-
+#### Quiz Page Expanded
 ![Quiz](<public/assets/Quiz w bg dropdown.png>)
-
+#### Quiz Page Scolled
 ![Quiz](<public/assets/Quiz w bg scrolled.png>)
 
+#### New Quiz Summary Page With Alert
 ![Quiz with alert](<public/assets/Quiz summary with alert>)
 
+#### New Poll Page
+##### (Options with Background Images)
 ![Poll](<public/assets/Poll w bg pic.png>)
 
+#### Updated Bachelors Page
 ![Bachelors](<public/assets/Bachelors icons.png>)
-
-![Bachelors](<public/assets/Bachelors icons.png>)
-
-![Bachelors](<public/assets/Bachelors icons.png>)
-
+#### Bachelors (Once Clicked)
 ![Bachelors](<public/assets/Bachelors individual.png>)
 
+#### Updated Bachelorettes Page
+![Bachelorettes](<public/assets/Bachelorettes icons.png>)
+#### Bachelorettes (Once Clicked)
 ![Bachelorettes](<public/assets/Bachelorettes individual.png>)
 
-![Bachelorettes](<public/assets/Bachelorettes icons.png>)
-
-![Villagers](<public/assets/villagers first.png>)
-
+#### Other Villagers Page (Top)
 ![Villagers](<public/assets/villagers top.png>)
-
+#### Updated Other Villagers Page
+![Villagers](<public/assets/villagers first.png>)
+#### Updated Other Villagers Page (Scrolled)
 ![Villagers](<public/assets/villagers scrolled.png>)
-
+#### Villagers (Once Clicked)
 ![Villagers](<public/assets/Villagers individual.png>)
