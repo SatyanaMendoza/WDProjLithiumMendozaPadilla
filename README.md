@@ -146,5 +146,36 @@ Aside from this, we also want to add a downward arrow in our homepage to indicat
 #### Sources Page:
 ![Sources Page](<public/assets/Sources Page.png>)
 
-![Bachelors](<public/assets/Bachelors icons>)
+![Home](<public/assets/Bachelors icons.png>)
 
+![Hover](<public/assets/hover.png>)
+
+![Quiz](<public/assets/Quiz w bg.png>)
+
+![Quiz](<public/assets/Quiz w bg dropdown.png>)
+
+![Quiz](<public/assets/Quiz w bg scrolled.png>)
+
+![Quiz with alert](<public/assets/Quiz summary with alert>)
+
+![Poll](<public/assets/Poll w bg pic.png>)
+
+![Bachelors](<public/assets/Bachelors icons.png>)
+
+![Bachelors](<public/assets/Bachelors icons.png>)
+
+![Bachelors](<public/assets/Bachelors icons.png>)
+
+![Bachelors](<public/assets/Bachelors individual.png>)
+
+![Bachelorettes](<public/assets/Bachelorettes individual.png>)
+
+![Bachelorettes](<public/assets/Bachelorettes icons.png>)
+
+![Villagers](<public/assets/villagers first.png>)
+
+![Villagers](<public/assets/villagers top.png>)
+
+![Villagers](<public/assets/villagers scrolled.png>)
+
+![Villagers](<public/assets/Villagers individual.png>)
