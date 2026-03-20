@@ -129,10 +129,6 @@ Furthermore, we plan to update other aspects of our website in order to improve 
 Aside from this, we also want to add a downward arrow in our homepage to indicate the user to scroll down, so that they may see the activities at the end of the webpage.  When the user hovers over the activities’ buttons, their corresponding descriptions will be displayed so that users will know what these activities are about.  Furthermore, we want to improve the website’s design by adding a color gradient to the background.  We also want to add images to the choices of the quiz and poll sections of our website for more visual appeal.
 
 ### Wireframes
-#### Home Page:
-![Home Page](
-
-#### Home Page With Arrow
 
 #### Home Page With Arrow
 ![Backstory w gradient](<public/assets/Backstory with gradient.png>)
@@ -150,7 +146,7 @@ Aside from this, we also want to add a downward arrow in our homepage to indicat
 ![Quiz](<public/assets/Quiz w bg scrolled.png>)
 
 #### New Quiz Summary Page With Alert
-![Quiz with alert](<public/assets/Quiz summary with alert>)
+![Quiz with alert](<public/assets/Quiz Summary with alert>)
 
 #### New Poll Page
 ##### (Options with Background Images)
