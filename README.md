@@ -130,7 +130,7 @@ Aside from this, we also want to add a downward arrow in our homepage to indicat
 
 ### Wireframes
 #### Home Page:
-![Home Page](<public/assets/Home Page.png>)
+![Home Page](
 #### Backstory Page:
 ![Backstory Page](public/assets/Backstory.png)
 #### Expanded Backstory Page:
@@ -145,3 +145,6 @@ Aside from this, we also want to add a downward arrow in our homepage to indicat
 ![Other Villagers](<public/assets/Other Villagers.png>)
 #### Sources Page:
 ![Sources Page](<public/assets/Sources Page.png>)
+
+![Bachelors](<public/assets/Bachelors icons>)
+
