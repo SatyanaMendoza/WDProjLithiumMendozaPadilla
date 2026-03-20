@@ -119,6 +119,7 @@ https://www.canva.com/design/DAG97bPCuDI/PazqlmdT1YVdIBa9sB5dMQ/edit?utm_content
 ******
 # FINAL MODIFICATION PROPOSAL
 
+### Design and Narrative:
 We plan to incorporate updating on the data in localStorage in our The Stardew Smarts Challenge (quiz) activity.  After submitting their first attempt, an alert will pop up to ask the user whether they want to update their score and rank by taking another quiz.  Their scores on the quiz will be used to determine the effectiveness of our encyclopedia website.  
 
 As for the removing aspect of our website, this has already been implemented in our quiz and poll section. We have previously coded our website so that the user can retake these forms, thus removing their previous attempts.
@@ -127,3 +128,20 @@ Furthermore, we plan to update other aspects of our website in order to improve 
 
 Aside from this, we also want to add a downward arrow in our homepage to indicate the user to scroll down, so that they may see the activities at the end of the webpage.  When the user hovers over the activities’ buttons, their corresponding descriptions will be displayed so that users will know what these activities are about.  Furthermore, we want to improve the website’s design by adding a color gradient to the background.  We also want to add images to the choices of the quiz and poll sections of our website for more visual appeal.
 
+### Wireframes
+#### Home Page:
+![Home Page](<public/assets/Home Page.png>)
+#### Backstory Page:
+![Backstory Page](public/assets/Backstory.png)
+#### Expanded Backstory Page:
+![Backstory Page Expanded](<public/assets/Backstory_ Expanded.png>)
+#### The Valley Page:
+![The Valley](<public/assets/The Valley.png>)
+#### Bachelors Page:
+![Bachelors](public/assets/Bachelors.png)
+#### Bachelorettes Page:
+![Bachelorettes](public/assets//Bachelorettes.png)
+#### Other Villagers Page:
+![Other Villagers](<public/assets/Other Villagers.png>)
+#### Sources Page:
+![Sources Page](<public/assets/Sources Page.png>)
