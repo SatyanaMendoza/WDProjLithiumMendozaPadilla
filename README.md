@@ -130,12 +130,16 @@ Aside from this, we also want to add a downward arrow in our homepage to indicat
 
 ### Wireframes
 
-#### Home Page With Arrow
-![Backstory w gradient](<public/assets/Backstory with gradient.png>)
+#### Updated Home Page with Scroll Arrow
+![Home Page](<public/assets/New home page w arrow.png>)
 
 #### End of Home Page 
 ##### (Shows description of activities after hovering)
 ![Hover](<public/assets/hover.png>)
+
+#### Updated Backstory Page
+##### (With gradient background)
+![Backstory w gradient](<public/assets/Backstory with gradient.png>)
 
 #### New Quiz Page 
 ##### (Options with Background Images)
