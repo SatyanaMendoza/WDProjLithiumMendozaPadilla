@@ -146,8 +146,6 @@ Aside from this, we also want to add a downward arrow in our homepage to indicat
 ![Quiz](<public/assets/Quiz w bg.png>)
 #### Quiz Page Expanded
 ![Quiz](<public/assets/Quiz w bg dropdown.png>)
-#### Quiz Page Scrolled
-![Quiz](<public/assets/Quiz w bg scrolled.png>)
 
 #### New Quiz Summary Page With Alert
 ![Quiz](<public/assets/Quiz Summary with alert.png>)
