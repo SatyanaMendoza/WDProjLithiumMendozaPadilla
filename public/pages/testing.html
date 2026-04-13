@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gradient Photo Background</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background-color: #050e3f;
+    }
+
+    .image1 {
+        position: absolute; 
+        z-index: 4;
+        height: 75vh;
+        width: 100vw;
+        mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0,0,0,0));
+        
+    }
+    .image2 {
+        position: relative;
+        z-index: 3;
+        top: 55vh;
+        height: 75vh;
+        width: 100vw;
+        mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+    }
+    .image3 {
+        position: relative;
+        z-index: 2;
+        top: 45vh;
+        height: 75vh;
+        width: 100vw;
+        mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+    }
+
+    .image4 {
+        position: relative;
+        z-index: 1;
+        top: 35vh;
+        height: 75vh;
+        width: 100vw;
+        mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+    }
+</style>
+</head>
+<body>
+    <img src="../assets/grandpa_background.webp" class="image1">
+
+    <img src="../assets/joja_background.jpg" class="image2">
+
+    <img src="../assets/grandpaletter_background.jpg" class="image3">
+
+    <img src="../assets/stardewvalley_background.jpg" class="image4">
+
+    Gradient + Photo Background Example
+</body>
+</html>
