@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="The Stardew Smarts Challenge">
+        <meta name="keywords" content="Stardew Valley, Stardew, Farmer, Backstory">
+        <meta name="author" content="Satyana Margaret S. Mendoza and Sofia Ashlie Q. Padilla">
+        <title>The Stardew Encyclopedia</title>
+        <link rel="stylesheet" href="../css/p9style.css">
+        <link rel="icon" href="../assets/Website Logo.jpg" sizes="32x32" type="image/png">
+        <script src="../javascript/quiz.js" defer></script>
+    </head>
+
+    <body>
+
+        <header class="top-bar">
+            <img src="../assets/WebsiteLogo_Transparent.png" class="logo">
+            <h1>THE STARDEW ENCYCLOPEDIA</h1>
+            <div class="menu" onclick="toggleMenu()">☰</div>
+            
+            <nav id="dropdown" class="dropdown">
+                <a href="../../index.html">HOME</a>
+                <a href="./p7-poll.html">THE STARDEW VOTING BARN</a>
+            </nav>
+        </header>
+        
+        <main class="content">
+
+            <audio controls autoplay loop>
+            <source src="../assets/Stardew Valley Overture.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+
+            <h2 class="heading">THE STARDEW SMARTS CHALLENGE</h2>
+
+            <!-- SOFIA if ur working on this basically you dont have to change anything in the js just the html-->
+            <!-- Basically for this, for every question just change "data-question="1"" and the "name="q1" (ex: name="q2" for question 2)-->
+            <!-- also you change the "data-correct="(then whichever value or option number is the correct answer)""-->
+            
+            <div class="quiz-container" data-question="1" data-correct="one">
+                <h1>Which bachelor wants to start a band with Sebastian once they have written enough songs?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q1" value="one">
+                        Sam
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q1" value="two">
+                        Shane
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q1" value="three">
+                        Elliott
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q1" value="four">
+                        Alex
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="2" data-correct="three">
+                <h1>Which bachelor/bachelorette is a professional athlete that especially loves gridball?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q2" value="one">
+                        Abigail
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q2" value="two">
+                        Sebastian
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q2" value="three">
+                        Alex
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q2" value="four">
+                        Haley
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="3" data-correct="two">
+                <h1>Where does Lewis live?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q3" value="one">
+                        2 Willow Lane
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q3" value="two">
+                        Mayor’s Manor
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q3" value="three">
+                        Trailer
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q3" value="four">
+                        Adventurer’s Guild
+                    </label>
+
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="4" data-correct="three">
+                <h1>At the end of your grandpa’s letter, what does he tell you to do once you get to Stardew Valley?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q4" value="one">
+                        Get married to Sebastian
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q4" value="two">
+                        Take care of his dog that he left behind when passing
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q4" value="three">
+                        Say hi to Lewis, if he’s still alive
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q4" value="four">
+                        Expand your farm and start a monopoly
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+            
+
+            <div class="quiz-container" data-question="5" data-correct="one">
+                <h1>Who is Robin the carpenter’s spouse?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q5" value="one">
+                        Demetrius
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q5" value="two">
+                        Gerard
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q5" value="three">
+                        Steve
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q5" value="four">
+                        Clint
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="6" data-correct="two">
+                <h1>Who among the following is a sweet old villager who is also in charge of the town’s flowers?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q6" value="one">
+                        Elizabeth
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q6" value="two">
+                        Evelyn
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q6" value="three">
+                        Jane
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q6" value="four">
+                        Mary
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="7" data-correct="one">
+                <h1>Which bachelor/bachelorette pair are half-siblings?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q7" value="one">
+                        Sebastian and Maru
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q7" value="two">
+                        Harvey and Haley
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q7" value="three">
+                        Leah and Alex
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q7" value="four">
+                        Emily and Penny
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+                <div class="quiz-container" data-question="8" data-correct="four">
+                <h1>Which location in the Valley is known to be the perfect place to adopt your first animals and get all the supplies you need for taking care of them?
+                </h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q8" value="one">
+                        Leah’s Cottage
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q8" value="two">
+                        Community Center
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q8" value="three">
+                        1 River Road
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q8" value="four">
+                        Marnie’s Ranch
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="9" data-correct="two">
+                <h1>Which bachelor likes programming computer games and playing tabletop role-playing games?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q9" value="one">
+                        Shane
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q9" value="two">
+                        Sebastian
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q9" value="three">
+                        Alex
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q9" value="four">
+                        Sam
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="10" data-correct="onw">
+                <h1>Which bachelorette works part-time at the Stardrop Saloon despite their true passion of tailoring clothes from scratch?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q10" value="one">
+                        Emily
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q10" value="two">
+                        Haley
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q10" value="three">
+                        Maru
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q10" value="four">
+                        Penny
+                    </label>
+
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="11" data-correct="four">
+                <h1>Which location do you visit to catch a ride to the Calico Desert?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q11" value="one">
+                        Trailer
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q11" value="two">
+                        Railroad and Spa
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q11" value="three">
+                        The Adventurer’s Guild
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q11" value="four">
+                        The Working Bus Stop
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="12" data-correct="four">
+                <h1>Which location CANNOT be found in Pelican Town?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q12" value="one">
+                        Sewer
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q12" value="two">
+                        1 River Road
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q12" value="three">
+                        Graveyard
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q12" value="four">
+                        Blacksmith
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="13" data-correct="four">
+                <h1>Which location CANNOT be found in the South of the Farm?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q13" value="one">
+                        Marnie’s Ranch
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q13" value="two">
+                        Leah’s Cottage
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q13" value="three">
+                        Wizard’s Tower
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q13" value="four">
+                        Playground & Fountain
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="14" data-correct="two">
+                <h1>Which bachelorette loves taking photos with her camera and keeping up with all the latest fashion trends?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q14" value="one">
+                        Penny
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q14" value="two">
+                        Haley
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q14" value="three">
+                        Emily
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q14" value="four">
+                        Maru
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <div class="quiz-container" data-question="15" data-correct="three">
+                <h1>Which of the following are you NOT able to do in the Valley?</h1>
+
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q15" value="one">
+                        Create Music with the Flute and Drum
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q15" value="two">
+                        Side with JojaMart and Become a Capitalist
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q15" value="three">
+                        Own a Car or a Motorcycle
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q15" value="four">
+                        Divorce Your Spouse
+                    </label>
+                </div>
+
+                <p class="result"></p>
+            </div>
+
+            <br>
+            <a href="./p10-summary.html" class="view-summary">View My Score</a>
+
+        </main>
+
+        <footer>
+            <div>X/YouTube/Spotify: @ConcernedApe<br><a href="https://discord.gg/stardewvalley">Stardew Valley Official Discord</a></div>
+            <div><a href="../../index.html">GO BACK HOME</a></div>
+            <div><a href="https://www.reddit.com/r/StardewValley/"> Stardew Valley Official Reddit </a><br>© SM Mendoza, SA Padilla</div>
+        </footer>
+    </body>
+</html>
