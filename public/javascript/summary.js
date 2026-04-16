@@ -52,3 +52,17 @@ document.getElementById("retryBtn").addEventListener("click", function () {
         window.location.href = "p9-quiz.html";
     }
 });
+
+document.getElementById("updateBtn").addEventListener("click", function () {
+
+    if (confirm("Would you like to update your rank by taking another quiz? Your previous score will be deleted.")) {
+
+        for (let key in localStorage) {
+            if (key.startsWith("question")) {
+                localStorage.removeItem(key);
+            }
+        }
+
+        window.location.href = "p10-second quiz.html";
+    }
+});

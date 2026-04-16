@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("rank").textContent = rank;
 });
 
+
 document.getElementById("retryBtn").addEventListener("click", function () {
 
     if (confirm("Are you sure you want to retry the quiz? Your previous score will be deleted.")) {
@@ -52,3 +53,5 @@ document.getElementById("retryBtn").addEventListener("click", function () {
         window.location.href = "p10-second quiz.html";
     }
 });
+
+
