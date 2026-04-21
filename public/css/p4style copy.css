@@ -129,6 +129,17 @@ overflow-y: auto;
 flex-direction: column;
 }
 
+.content .icons {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+overflow-y: auto;
+flex-direction: row;
+margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  color: #ffffff;
+}
 .heading {
 margin-bottom: 5px; 
 text-align: left;
