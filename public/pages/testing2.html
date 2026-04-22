@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="The Stardew Valley: The Bachelorettes">
+        <meta name="keywords" content="Stardew Valley, Stardew, Farmer, Valley, Bachelorettes, Emily, Hailey, Abigail, Leah, Maru, Penny">
+        <meta name="author" content="Satyana Margaret S. Mendoza and Sofia Ashlie Q. Padilla">
+        <title>The Stardew Encyclopedia</title>
+        <link rel="stylesheet" href="../css/testing2.css">
+        <link rel="icon" href="../assets/Website Logo.jpg" sizes="32x32" type="image/png">
+        <script src="../javascript/testing2.js" defer></script>
+    </head>
+
+    <body>
+        <header class="top-bar">
+            <img src="../assets/WebsiteLogo_Transparent.png" class="logo">
+            <h1>THE STARDEW ENCYCLOPEDIA</h1>
+            <div class="menu" onclick="toggleMenu()">☰</div>
+            
+            <nav id="dropdown" class="dropdown">
+                <a href="../../index.html">HOME</a>
+                <a href="./p1-backstory.html">BACKSTORY</a>
+                <a href="./p2-valley.html">THE VALLEY</a>
+                <a href="./p3-bachelors.html">BACHELORS</a>
+                <a href="./p5-othervillagers.html">OTHER VILLAGERS</a>
+            </nav>
+
+            <audio controls autoplay loop>
+            <source src="../assets/Spring (It's A Big World Outside).mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+        </header>
+
+        <main class="content">
+
+            <h2 class="heading">THE BACHELORETTES❤</h2> 
+            <p>Click a picture to see their profile!</p>
+
+            <div class="icons-grid">
+                <div class="char-card" onclick="openProfile(0)">
+                    <div class="image-box">
+                        <img src="../assets/abigail.jpg" class="image">
+                        <div data-id="Abigail" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                    </div>
+                    <h4>Abigail</h4>
+                </div>
+
+                <div class="char-card" onclick="openProfile(1)">
+                    <div class="image-box">
+                        <img src="../assets/emily.jpg" class="image">
+                        <div data-id="Emily" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                    </div>
+                    <h4>Emily</h4>
+                </div>
+
+                <div class="char-card" onclick="openProfile(2)">
+                    <div class="image-box">
+                        <img src="../assets/hailey.jpg" class="image">
+                        <div data-id="Haley" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                    </div>
+                    <h4>Haley</h4>
+                </div>
+
+                <div class="char-card" onclick="openProfile(3)">
+                    <div class="image-box">
+                        <img src="../assets/leah.jpg" class="image">
+                        <div data-id="Leah" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                    </div>
+                    <h4>Leah</h4>
+                </div>
+
+                <div class="char-card" onclick="openProfile(4)">
+                    <div class="image-box">
+                        <img src="../assets/marlon.png" class="image">
+                        <div data-id="Maru" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                    </div>
+                    <h4>Maru</h4>
+                </div>
+
+                <div class="char-card" onclick="openProfile(5)">
+                    <div class="image-box">
+                        <img src="../assets/penny.jpg" class="image">
+                        <div data-id="Maru" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                    </div>
+                    <h4>Penny</h4>
+                </div>
+            </div>
+        </main>
+
+        <div id="profileOverlay" class="overlay">
+            <div class="overlay-content">
+                <button class="nav-arrow left" onclick="changeProfile(-1)">◀</button>
+                <button class="nav-arrow right" onclick="changeProfile(1)">▶</button>
+
+                <div class="profile-card">
+                    <div class="profile-left">
+                        <div class="image-box large">
+                            <img id="modalImg" src="" alt="">
+                        </div>
+                        <div id="modalHeart" class="heart big" onclick="toggleFavorite(this)">YOUR FAVORITE? ❤</div>
+                    </div>
+
+                    <div class="profile-right">
+                        <h4 id="modalName">-Name-</h4>
+                        <div class="scroll-details">
+                            <h5 id="modalDesc">Description</h5>
+                            <h5 id="modalBirthday"><strong>Birthday:</strong> <span></span></h5>
+                            <h5 id="modalClinic"><strong>Clinic Visit:</strong> <span></span></h5>
+                            <h5 id="modalFavs"><strong>Favorite Items:</strong> <ul></ul></h5>
+                            <h5 id="modalFamily"><strong>Family:</strong> <ul></ul></h5>
+                            <h5 id="modalAddress"><strong>Address:</strong> <span></span></h5>
+                        </div>
+                    </div>
+                    
+                    <button class="exit-btn" onclick="closeProfile()">EXIT</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div>X/YouTube/Spotify: @ConcernedApe<br><a href="https://discord.gg/stardewvalley">Stardew Valley Official Discord</a></div>
+            <div><a href="./p6-sources.html">CLICK FOR THE SOURCES</a></div>
+            <div><a href="https://www.reddit.com/r/StardewValley/"> Stardew Valley Official Reddit </a><br>© SM Mendoza, SA Padilla</div>
+        </footer>
+    </body>
+</html>
