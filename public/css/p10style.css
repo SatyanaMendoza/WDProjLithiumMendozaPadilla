@@ -7,48 +7,48 @@
 }
 
 body {
-margin: 0;
-font-family: monospace;
-background: #f2d18b;
-color: #3b2a1a;
-height: 100vh; 
-display: flex;
-flex-direction: column;
+    margin: 0;
+    font-family: monospace;
+    background: #f2d18b;
+    color: #3b2a1a;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
 }
 
 .top-bar {
-background: #59c3f0;
-display: flex;
-align-items: center;
-padding: 0 15px;
-position: relative;
-height: 80px;          
-min-height: 80px;
-justify-content: center;
-gap: 10px;   
-text-align: center;
-flex-shrink: 0;
-flex-direction: row;
+    background: #59c3f0;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    position: relative;
+    height: 80px;          
+    min-height: 80px;
+    justify-content: center;
+    gap: 10px;   
+    text-align: center;
+    flex-shrink: 0;
+    flex-direction: row;
 }
 
 .top-bar > * {
-flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .top-bar h1 {
-font-size: 2rem;
-color: #1277d8;
-text-align: center;
-margin: 0;
-flex-shrink: 1;
+    font-size: 2rem;
+    color: #1277d8;
+    text-align: center;
+    margin: 0;
+    flex-shrink: 1;
 }
 
 .logo { 
-width: 70px; 
-margin-right: 10px; 
-flex-shrink: 0; 
-align-items: left;
-height: auto;
+    width: 70px; 
+    margin-right: 10px; 
+    flex-shrink: 0; 
+    align-items: left;
+    height: auto;
 }
 
 .menu {
@@ -95,7 +95,6 @@ text-decoration: none;
 font-size: 1.5rem;
 text-align: center;
 border-bottom: 1px solid #59c3f0;
-white-space: nowrap;
 opacity: 0;
 transition: opacity 0.3s ease-in-out;
 }
@@ -111,20 +110,20 @@ color: #055578;
 }
 
 .hidden { 
-display: none; 
+    display: none; 
 }
 
 audio {
-display: none;
+    display: none;
 }
 
 .content { 
-flex: 1;
-overflow-y: auto;
-display: flex;
-gap: 20px;
-padding: 20px;
-flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
 }
 
 .heading {
@@ -135,109 +134,108 @@ font-size: 3rem;
 margin-top: 5px;
 }
 
-section {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    gap: 50px; 
-    margin: 20px auto;
-    max-width: 1400px; 
-    width: 95%; 
+.quiz-container {
+background: #a4f6ff;
+border: 4px solid #4dc5d8;
+border-radius: 12px;
+padding: 25px;
+box-shadow: 4px 4px 0px #2c91c4;
+box-sizing: border-box;
+max-width: 850px;
+width: 100%;
+margin: 20px auto; 
 }
 
-section .score-rank {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.quiz-container h1 {
     text-align: center;
-    flex: 1;
-    gap: 5px; 
+    margin-bottom: 25px;
+    font-size: 1.8rem;
 }
 
-section .score-rank p {
-    margin: 0;
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
 
-section #final-score {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    font-weight: bolder;
+.options input[type="radio"] {
+    display: none;
 }
 
-section #rank {
-    font-size: 3rem;
+.options label {
+    background: #cee7f4;
+    border: 3px solid #2c91c4;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: 0.2s ease;
 }
 
-section .image-box {
-    flex: 0 1 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #59c3f0;
-    padding: 15px; 
-    border-radius: 12px;
+.options label:hover {
+    background: #ffffff;
+    transform: scale(1.03);
 }
 
-section .image-box img {
-    display: block; 
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+.correct {
+    background-color: #9be89b !important;
+    border-color: #2e8b57 !important;
 }
 
-.p1 { 
-    font-size: 1.8rem; 
-}
-.p2 { 
-    font-size: 3rem; 
+.wrong {
+    background-color: #ff9c9c !important;
+    border-color: #b22222 !important;
 }
 
-.button-group {
-display: flex;
-justify-content: center;
-gap: 20px;
-margin: 30px 0;
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
-.quiz-btn, #retryBtn {
-  padding: 15px 30px;
-  font-size: 1.2rem;
-  background: #59c3f0;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.2s ease;
-  font-family: 'Pixel Font', sans-serif;
-  color: #3b2a1a;
+a.view-summary {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 12px 25px;
+    background-color: #59c3f0;
+    color: #0c3396;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
 }
 
-.quiz-btn:hover, #retryBtn:hover {
-  background: #2fa4dd;
-  transform: scale(1.05);
+a.view-summary:hover {
+    background-color: #1277d8;
+    transform: scale(1.05);
+    text-decoration: none;
 }
-
 
 footer {
-background: #6b3f1d;
-color: #f2d18b;
-display: flex;
-justify-content: space-between;
-padding: 15px;
-flex-shrink: 0;
-flex-wrap: wrap;
+    background: #6b3f1d;
+    color: #f2d18b;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 footer div {
-color: #f2d18b;
-font-size: 1rem;
-font-weight: 700;
+    color: #f2d18b;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 footer a {
-color: #f2d18b;
-font-size: 1rem;
-font-weight: 700;
+    color: #f2d18b;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 @media (max-width: 768px) {
@@ -284,29 +282,33 @@ font-weight: 700;
     margin-bottom: 10px;
   }
 
-   section {
-        flex-direction: column;
-        gap: 20px;
+  .quiz-container {
+        padding: 15px;
         margin: 15px;
-        align-items: center;
+        max-width: 95%;
     }
 
-    section .score-rank {
-        align-items: center;
-        text-align: center;
+    .quiz-container h1 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
     }
 
-    section .image-box {
-        max-width: 90%;
+    .options {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .options label {
+        font-size: 1rem;
         padding: 15px;
     }
 
-    #final-score {
-        font-size: 2.5rem;
-    }
-
-    #rank {
-        font-size: 1.5rem;
+    a.view-summary {
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        padding: 10px 20px;
+        font-size: 1rem;
     }
 
   footer {

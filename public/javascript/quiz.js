@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const questionNumber = question.dataset.question;
         const correctAnswer = question.dataset.correct;
-        const questionKey = "question" + questionNumber;
+        const questionKey = "quiz1_question" + questionNumber;
 
         const options = question.querySelectorAll('input[type="radio"]');
         const resultText = question.querySelector(".result");
@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
             option.addEventListener("change", function () {
 
                 const selected = this.value;
+
+                localStorage.setItem("last_quiz_taken", "quiz1");
 
                 localStorage.setItem(questionKey, selected);
 
