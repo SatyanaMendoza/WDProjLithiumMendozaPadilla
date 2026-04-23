@@ -49,7 +49,7 @@ const bacheloretteData = [
     {
         id: "Haley",
         name: "Haley",
-        img: "../assets/haley.jpg",
+        img: "../assets/hailey.jpg",
         desc: " Haley loves taking photos with her camera and keeping up with all the latest fashion trends. Being wealthy and popular throughout high school has made her a little conceited and self-centered. She can also be quite judgemental toward others. But is it too late for her to discover a deeper meaning to life? Is there a fun, open-minded young woman hidden within that candy-coated shell?",
         birthday: "Spring 14",
         clinic: "Winter 9",

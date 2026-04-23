@@ -23,83 +23,17 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-const bacheloretteData = [
+const bachelorData = [
     {
-        id: "Abigail",
-        name: "Abigail",
-        img: "../assets/abigail.jpg",
-        desc: "Abigail lives at the general store with her parents. She sometimes fights with her mom, who worries about Abigail's alternative lifestyle. She enjoys playing the flute, exploring, has a knack for adventure, and often talks about her dreams of one day becoming a farmer. Being good friends with Sebastian and Sam, she can often be found with them at the Saloon and at festivals.",
-        birthday: "Fall 13",
-        clinic: "Spring 4",
-        favs: ["Amethyst", "Banana Pudding", "Blackberry Cobbler", "Chocolate Cake", "Monster Compendium", "Pufferfish", "Pumpkin", "Spicy Eel"],
-        family: ["Pierre (Father)", "Caroline (Mother)"],
-        address: "Pierre's General Store"
-    },
-    {
-        id: "Emily",
-        name: "Emily",
-        img: "../assets/emily.jpg",
-        desc: "Emily lives with her sister, Haley, and together they care for their parents' home, who have been traveling the world for the past two years. She works with Gus, who employs her part-time at The Stardrop Saloon. There, she works most evenings to make ends meet. However, her real passion is tailoring— often making her clothes from scratch.",
-        birthday: "Spring 27",
-        clinic: "Winter 11",
-        favs: ["Amethyst", "Cloth", "Emerald", "Jade", "Parrot Egg", "Ruby", "Survival Burger", "Topaz", "Wool"],
-        family: ["Haley (Sister)"],
-        address: "2 Willow Lane"
-    },
-    {
-        id: "Emily",
-        name: "Emily",
-        img: "../assets/emily.jpg",
-        desc: "Emily lives with her sister, Haley, and together they care for their parents' home, who have been traveling the world for the past two years. She works with Gus, who employs her part-time at The Stardrop Saloon. There, she works most evenings to make ends meet. However, her real passion is tailoring— often making her clothes from scratch.",
-        birthday: "Spring 27",
-        clinic: "Winter 11",
-        favs: ["Amethyst", "Cloth", "Emerald", "Jade", "Parrot Egg", "Ruby", "Survival Burger", "Topaz", "Wool"],
-        family: ["Haley (Sister)"],
-        address: "2 Willow Lane"
-    },
-    {
-        id: "Haley",
-        name: "Haley",
-        img: "../assets/haley.jpg",
-        desc: "E",
-        birthday: "Spring 27",
-        clinic: "Winter 11",
-        favs: ["Amethyst", "Cloth", ],
-        family: ["Haley (Sister)"],
-        address: "2 Willow Lane"
-    },
-    {
-        id: "Haley",
-        name: "Haley",
-        img: "../assets/haley.jpg",
-        desc: "E",
-        birthday: "Spring 27",
-        clinic: "Winter 11",
-        favs: ["Amethyst", "Cloth", ],
-        family: ["Haley (Sister)"],
-        address: "2 Willow Lane"
-    },
-    {
-        id: "Haley",
-        name: "Haley",
-        img: "../assets/haley.jpg",
-        desc: "E",
-        birthday: "Spring 27",
-        clinic: "Winter 11",
-        favs: ["Amethyst", "Cloth", ],
-        family: ["Haley (Sister)"],
-        address: "2 Willow Lane"
-    },
-    {
-        id: "Haley",
-        name: "Haley",
-        img: "../assets/haley.jpg",
-        desc: "E",
-        birthday: "Spring 27",
-        clinic: "Winter 11",
-        favs: ["Amethyst", "Cloth", ],
-        family: ["Haley (Sister)"],
-        address: "2 Willow Lane"
+        id: "Alex",
+        name: "Alex",
+        img: "../assets/alex.jpg",
+        desc: "Penny lives with her mom, Pam, in a little trailer by the river. She quietly tends to her chores in the dim, stuffy room she is forced to call home, all while her mom is away, carousing at the saloon. Penny is shy and modest, without any grand ambitions for life other than settling in and starting a family. She likes to cook (although her skills are questionable) and read books from the local library.",
+        birthday: "Fall 2",
+        clinic: "Winter 4",
+        favs: ["Diamond", "Emerald", "Melon","Poppy","Poppyseed Muffin","Red Plate","Roots Platter","Sandfish","Tom Kha Soup"],
+        family: ["Pam (Mother)"],
+        address: "Trailer"
     },
 ];
 
@@ -117,13 +51,13 @@ function closeProfile() {
 
 function changeProfile(step) {
     currentIndex += step;
-    if (currentIndex < 0) currentIndex = bacheloretteData.length - 1;
-    if (currentIndex >= bacheloretteData.length) currentIndex = 0;
+    if (currentIndex < 0) currentIndex = bachelorData.length - 1;
+    if (currentIndex >= bachelorData.length) currentIndex = 0;
     updateModal();
 }
 
 function updateModal() {
-    const data = bacheloretteData[currentIndex];
+    const data = bachelorData[currentIndex];
     document.getElementById('modalName').textContent = "-" + data.name + "-";
     document.getElementById('modalImg').src = data.img;
     document.getElementById('modalDesc').textContent = data.desc;
