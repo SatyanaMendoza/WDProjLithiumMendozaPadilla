@@ -370,6 +370,25 @@ box-shadow: 6px 6px 0px #055578;
 color: #1277d8;
 }
 
+.poll-link-desc, .quiz-link-desc {
+  visibility: hidden;
+  position: absolute;
+  background-color: #abd8ee;
+  color: #6b3f1d;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #055578;
+  bottom: 125%; 
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.poll-link:hover .poll-link-desc, .quiz-link:hover .quiz-link-desc {
+  visibility: visible;
+  opacity: 1;
+}
+
 footer {
 background: #6b3f1d;
 color: #f2d18b;
