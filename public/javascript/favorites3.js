@@ -27,7 +27,7 @@ const villagerData = [
     {
         id: "Caroline",
         name: "Caroline",
-        img: "../assets/caroline.jpg",
+        img: "../assets/caroline.png",
         desc:   "Caroline is very traditional in the sense that she’s quite fond and enjoys most of her time being at home, doing all the chores and all that. She helps Pierre intending to the store, Pierre’s General Store.",
         birthday: "Winter 7",
         clinic: "Fall 25",
@@ -39,7 +39,7 @@ const villagerData = [
     {
         id: "Clint",
         name: "Clint",
-        img: "../assets/clint.jpg",
+        img: "../assets/clint.png",
         desc:   "Clint owns and runs the local Blacksmith. He provides various upgrades for tools and can crack open the Geodes and Mystery Boxes that you collect. He has a crush on Emily and would The Stardrop Saloon just to see her and talk to her, but still becomes nervous whenever she's around.",
         birthday: "Winter 26",
         clinic: "Winter 16",
@@ -51,7 +51,7 @@ const villagerData = [
     {
         id: "Evelyn",
         name: "Evelyn",
-        img: "../assets/evelyn.jpg",
+        img: "../assets/evelyn.png",
         desc:   "Evelyn is a sweet old woman who lives on River Road with her husband George. She is in charge of the town's flowers. She has lived here her whole life, so she knows almost everyone and gives useful advice.",
         birthday: "Winter 20",
         clinic: ["The second of each season","The 23rd of each season (with George)"],
@@ -63,7 +63,7 @@ const villagerData = [
     {
         id: "George",
         name: "George",
-        img: "../assets/george.jpg",
+        img: "../assets/george.png",
         desc:   "George is an old grumpy man in a wheelchair with a kind heart. He is a retired farmer and lives with his wife Evelyn and Grandson Alex on 1 River Road. Clara is the deceased daughter of George and the mother of Alex.",
         birthday: "Fall 24",
         clinic: "The 23rd of each season",
@@ -75,7 +75,7 @@ const villagerData = [
     {
         id: "Gunther",
         name: "Gunther",
-        img: "../assets/gunther.jpg",
+        img: "../assets/gunther.png",
         desc:   " Gunther is a villager who operates the Archaeology Center in Pelican Town. He doesn't accept friendship gifts, and instead accepts donations to the Museum. He'll reward players as they reach milestones in number of donations. ",
         birthday: "Unknown",
         clinic: "N/A",
@@ -87,7 +87,7 @@ const villagerData = [
     {
         id: "Gus",
         name: "Gus",
-        img: "../assets/gus.jpg",
+        img: "../assets/gus.png",
         desc:   " Gus is a villager who lives and works at the Stardrop Saloon, keeping the people of Pelican Town well fed and happy. He also provides food for most of the festivals in the Valley.  He has many recipes to share with you!",
         birthday: "Summer 8",
         clinic: "Fall 4",
@@ -99,7 +99,7 @@ const villagerData = [
     {
         id: "Jodi",
         name: "Jodi",
-        img: "../assets/jodi.jpg",
+        img: "../assets/jodi.png",
         desc:   "Jodi is a villager who lives in Pelican Town. She is married to Kent and together they have two sons, Sam and Vincent. Along with her best friend, Caroline, she attends exercise classes with some of the other Pelican Town ladies.",
         birthday: "Fall 11",
         clinic: ["Summer 18","Spring 11 (with Vincent)"],
@@ -111,7 +111,7 @@ const villagerData = [
     {
         id: "Kent",
         name: "Kent",
-        img: "../assets/kent.jpg",
+        img: "../assets/kent.png",
         desc:   "Kent is a soldier away at war and does not return to the Valley until Year 2 after returning from his duty in the military. He can be quite difficult to get to know at first due to how he was affected by his experiences at war.",
         birthday: "Spring 4",
         clinic: "N/A",
@@ -123,7 +123,7 @@ const villagerData = [
     {
         id: "Krobus",
         name: "Krobus",
-        img: "../assets/krobus.jpg",
+        img: "../assets/krobus.png",
         desc:   " Krobus is a shadow person who lives in the Sewers. He is the only friendly monster you have encountered, and he sells a variety of rare goods. You can even have him as a roomate, if you please.",
         birthday: "Winter 1",
         clinic: "N/A",
@@ -135,7 +135,7 @@ const villagerData = [
     {
         id: "Lewis",
         name: "Lewis",
-        img: "../assets/lewis.jpg",
+        img: "../assets/lewis.png",
         desc:   "Lewis has held his position of mayor of Pelican Town for more than twenty years. Along with Robin, he is one of the first people to greet you in your arrival to Stardew Valley. Aside from being the mayor, he also participates in the Stardew Valley Agricultural Fund. He often sends you letters that include money from the fund to help you continue your good work in the farm.",
         birthday: "Spring 7",
         clinic: "Fall 9",
@@ -147,7 +147,7 @@ const villagerData = [
     {
         id: "Morris",
         name: "Morris",
-        img: "../assets/morris.jpg",
+        img: "../assets/morris.png",
         desc:   " Morris is the manager and the customer service representative of JojaMart in Pelican Town. Morris worked his way up to be the store's manager and prioritizes its success over his own well-being. He has even spent his own money to make store improvements and would often work overtime, to the point where he'd sleep under his desk rather than go home. Underneath his focus, he is lonely and exhausted. He hopes one day to find a place he feels he belongs and enjoy the comforts of life he longs for.",
         birthday: "Unknown",
         clinic: "N/A",
@@ -159,7 +159,7 @@ const villagerData = [
     {
         id: "Pam",
         name: "Pam",
-        img: "../assets/pam.jpg",
+        img: "../assets/pam.png",
         desc:   "Pam is known to be an alcoholic, who would spike punch at a festival, wake up with a hang over, and spend most of her time at the Saloon. However, it is discovered that she used to drive the Pelican Town bus, and that she became upset when it broke down. Eventually, with your help, Pam is able to resume her duty in bus driving once the bus is repaired— unlocking the Desert for the villagers to visit.",
         birthday: "Spring 18",
         clinic: "Spring 25",
@@ -171,7 +171,7 @@ const villagerData = [
     {
         id: "Pierre",
         name: "Pierre",
-        img: "../assets/pierre.jpg",
+        img: "../assets/pierre.png",
         desc:   "Pierre is a local store owner who lives with his wife Caroline and daughter Abigail. He owns and runs Pierre's General Store, and is in a fierce competition with Morris, the manager of JojaMart.",
         birthday: "Spring 26",
         clinic: "N/A",
@@ -183,7 +183,7 @@ const villagerData = [
     {
         id: "Vincent",
         name: "Vincent",
-        img: "../assets/vincent.jpg",
+        img: "../assets/vincent.png",
         desc:   "Vincent is a young boy and can often be found with his best friend Jas.  He looks up to his brother, Sam, and wants to be just like him when he grows up.",
         birthday: "Spring 10",
         clinic: "Spring 11",
@@ -195,7 +195,7 @@ const villagerData = [
     {
         id: "Demetrius",
         name: "Demetrius",
-        img: "../assets/demetrius.jpg",
+        img: "../assets/demetrius.png",
         desc:   "Demetrius is a scientist who studies the valley's local wildlife.  He can often be found working in his laboratory or outdoors taking notes. He is very protective of Maru.",
         birthday: "Summer 19",
         clinic: "Summer 25",
@@ -207,7 +207,7 @@ const villagerData = [
     {
         id: "Dwarf",
         name: "Dwarf",
-        img: "../assets/dwarf.jpg",
+        img: "../assets/dwarf.png",
         desc:   "The Dwarf lives in the mines under Pelican Town.  He speaks Dwarvish. He is the only dwarf in the Valley, but conversing with him will gain you new knowledge on the Dwarf species.",
         birthday: "Summer 22",
         clinic: "Summer 25",
@@ -219,7 +219,7 @@ const villagerData = [
     {
         id: "Gil",
         name: "Gil",
-        img: "../assets/gil.jpg",
+        img: "../assets/gil.png",
         desc:   "Gil is a villager who lives in the Adventurer's Guild in the Mountain, north of Pelican Town. He rewards players with special rings, hats and other valuable items when they complete Monster Eradication Goals. ",
         birthday: "Unknown",
         clinic: "N/A",
@@ -231,7 +231,7 @@ const villagerData = [
     {
         id: "Leo",
         name: "Leo",
-        img: "../assets/leo.jpg",
+        img: "../assets/leo.png",
         desc:   "Leo is a boy who lives on Ginger Island and doesn’t leave until you have reached 6 hearts of friendship with him. His parents were lost at sea, and he considers the parrots who inhabit the island to be his family.  At first, he is too shy and hesitates to speak to you. You 'make friends' with the parrots of the island, which encourages him to interact with you.",
         birthday: "Summer 26",
         clinic: "N/A",
@@ -243,7 +243,7 @@ const villagerData = [
     {
         id: "Linus",
         name: "Linus",
-        img: "../assets/linus.jpg",
+        img: "../assets/linus.png",
         desc:   "Linus is a nature-lover who lives in a tent in the mountains and often stays isolated from the other residents of Pelican Town. However, he's a valuable friend to have in Stardew Valley, as he can teach you many useful recipes. He loves living a natural lifestyle and appreciates anything you would forage for him.  ",
         birthday: "Winter 3",
         clinic: "N/A",
@@ -255,7 +255,7 @@ const villagerData = [
     {
         id: "Marlon",
         name: "Marlon",
-        img: "../assets/marlon.jpg",
+        img: "../assets/marlon.png",
         desc:   "Marlon is the leader of the Adventurer's Guild. You meet him during your first time exploring the mines, where he gifts you a Rusty Sword. He rewards adventurers with powerful items in exchange for slaying large quantities of monsters.",
         birthday: "Unknown",
         clinic: "N/A",
@@ -267,7 +267,7 @@ const villagerData = [
     {
         id: "Robin",
         name: "Robin",
-        img: "../assets/robin.jpg",
+        img: "../assets/robin.png",
         desc:   " Robin is a hardworking carpenter who resides at 24 Mountain Road, on The Mountain. She is the first villager you meet once you have arrived at Stardew Valley. You two interact frequently, since she will help you in constructing your farm building, upgrading your farmhouse, and, eventually, the greater Pelican Town community.",
         birthday: "Fall 21",
         clinic: "Summer 18",
@@ -279,7 +279,7 @@ const villagerData = [
     {
         id: "Jas",
         name: "Jas",
-        img: "../assets/jas.jpg",
+        img: "../assets/jas.png",
         desc:   "Jas is a young girl who lives just outside Pelican Town. She can often be found hanging out with her best friend, Vincent. ",
         birthday: "Summer 4",
         clinic: "Winter 18",
@@ -291,7 +291,7 @@ const villagerData = [
     {
         id: "Marnie",
         name: "Marnie",
-        img: "../assets/marnie.jpg",
+        img: "../assets/marnie.png",
         desc:   "Marnie lives at Marnie's Ranch where she runs her own shop. She is very fond of animals and enjoys taking care of her farm. In her shop, she sells livestock and animal care supplies. ",
         birthday: "Fall 18",
         clinic: "Fall 18",
@@ -303,7 +303,7 @@ const villagerData = [
     {
         id: "Wizard/M. Rasmodius",
         name: "Wizard/M. Rasmodius",
-        img: "../assets/wizard.jpg",
+        img: "../assets/wizard.png",
         desc:   "Wizard, also known as M. Rasmodius, studies the spirit world from his tower in cindersap forest. He is fluent in many elemental languages. He never leaves from his tower, unless when there's a festival being held, where he likes spying from afar.",
         birthday: "Winter 17",
         clinic: "N/A",
@@ -315,7 +315,7 @@ const villagerData = [
     {
         id: "Willy",
         name: "Willy",
-        img: "../assets/willy.jpg",
+        img: "../assets/willy.png",
         desc:   "Demetrius is a scientist who studies the valley's local wildlife. He can often be found working in his laboratory or outdoors taking notes. He is very protective of Maru.",
         birthday: "Summer 19",
         clinic: "Summer 25",
