@@ -148,6 +148,35 @@ text-decoration: underline;
 font-size: 3rem;
 }
 
+.hyperlink {
+background: #4fb6e8;
+padding: 20px;
+border-radius: 15px;
+width: 500px;
+margin: 20px auto;
+text-align: center;
+font-size: 1.5rem;
+font-weight: bold;
+justify-content: center;
+align-items: center;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+.hyperlink2 {
+justify-content: center;
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+}
+
+.hyperlinks {
+justify-content: center;
+align-items: center;
+flex-direction: column;
+display: flex;
+}
+
 p {
 font-size: 1rem;
 font-weight: 900;
