@@ -7,13 +7,9 @@
         <meta name="keywords" content="Stardew Valley, Stardew, Farmer, Valley, Villagers">
         <meta name="author" content="Satyana Margaret S. Mendoza and Sofia Ashlie Q. Padilla">
         <title>The Stardew Encyclopedia</title>
-        <link rel="stylesheet" href="../css/p5style copy.css">
+        <link rel="stylesheet" href="../css/p5style.css">
         <link rel="icon" href="../assets/Website Logo.jpg" sizes="32x32" type="image/png">
-<<<<<<< HEAD
-        <script src="../javascript/favorites - villagers.js" defer></script>
-=======
         <script src="../javascript/favorites3.js" defer></script>
->>>>>>> a80e6c8b62f5f9aa79e387059c43cb044df88dd6
     </head>
 
     <body>
@@ -59,209 +55,138 @@
 
             <div id="Town Square">
             <h4>--Villagers in Town Square--</h4>
+                <a href="#Start">
+                    <h3>Click here to jump to start!</h3>
+                </a>
+
+                <div class="icons-grid">
+                        <div class="char-card" onclick="openProfile(0)">
+                            <div class="image-box">
+
+                                <img src="../assets/caroline.png" class="image">
+                                <div data-id="Caroline" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                            </div>
+                            <h4>Caroline</h4>
+                        </div>
+
+                        <div class="char-card" onclick="openProfile(1)">
+                            <div class="image-box">
+                                <img src="../assets/clint.png" class="image">
+                                <div data-id="Clint" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                            </div>
+                            <h4>Clint</h4>
+                        </div>
+
+                        <div class="char-card" onclick="openProfile(2)">
+                            <div class="image-box">
+                                <img src="../assets/evelyn.png" class="image">
+                                <div data-id="Evelyn" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                            </div>
+                            <h4>Evelyn</h4>
+                        </div>
+
+                        <div class="char-card" onclick="openProfile(3)">
+                            <div class="image-box">
+                                <img src="../assets/george.png" class="image">
+                                <div data-id="George" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                            </div>
+                            <h4>George</h4>
+                        </div>
+
+                        <div class="char-card" onclick="openProfile(4)">
+                            <div class="image-box">
+                                <img src="../assets/gunther.png" class="image">
+                                <div data-id="Gunther" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                            </div>
+                            <h4>Gunther</h4>
+                        </div>
+
+                        <div class="char-card" onclick="openProfile(5)">
+                            <div class="image-box">
+                                <img src="../assets/gus.png" class="image">
+                                <div data-id="Gus" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                            </div>
+                            <h4>Gus</h4>
+                        </div>
+                    
+                        <div class="char-card" onclick="openProfile(6)">
+                            <div class="image-box">
+                                <img src="../assets/jodi.png" class="image">
+                                <div data-id="Jodi" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                            </div>
+                            <h4>Jodi</h4>
+                        </div>
+
+                        <div class="char-card" onclick="openProfile(7)">
+                            <div class="image-box">
+                                <img src="../assets/kent.png" class="image">
+                                <div data-id="Kent" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                            </div>
+                            <h4>Kent</h4>
+                        </div>
+
+                        <div class="char-card" onclick="openProfile(8)">
+                            <div class="image-box">
+                                <img src="../assets/krobus.png" class="image">
+                                <div data-id="Krobus" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                            </div>
+                            <h4>Krobus</h4>
+                        </div>
+
+                    <div class="char-card" onclick="openProfile(9)">
+                        <div class="image-box">
+                            <img src="../assets/lewis.png" class="image">
+                            <div data-id="Lewis" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                        </div>
+                        <h4>Lewis</h4>
+                    </div>
+
+                    <div class="char-card" onclick="openProfile(10)">
+                        <div class="image-box">
+                            <img src="../assets/morris.png" class="image">
+                            <div data-id="Morris" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                        </div>
+                        <h4>Morris</h4>
+                    </div>
+
+                    <div class="char-card" onclick="openProfile(11)">
+                        <div class="image-box">
+                            <img src="../assets/pam.png" class="image">
+                            <div data-id="Pam" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                        </div>
+                        <h4>Pam</h4>
+                    </div>
+
+                    <div class="char-card" onclick="openProfile(12)">
+                        <div class="image-box">
+                            <img src="../assets/pierre.png" class="image">
+                            <div data-id="Pierre" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                        </div>
+                        <h4>Pierre</h4>
+                    </div>
+
+                    <div class="char-card" onclick="openProfile(13)">
+                        <div class="image-box">
+                            <img src="../assets/vincent.png" class="image">
+                            <div data-id="Vincent" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                        </div>
+                        <h4>Vincent</h4>
+                    </div>
+    
+                </div>
+            </div>
+            
+
+        
+
+        <div id="Mountains">
+            <h4>--Villagers in The Mountains--</h4>
             <a href="#Start">
                 <h3>Click here to jump to start!</h3>
             </a>
 
             <div class="icons-grid">
-                <div class="char-card" onclick="openProfile(0)">
-                    <div class="image-box">
-<<<<<<< HEAD
-                        <img src="../assets/alex.jpg" class="image">
-                        <div data-id="Alex" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Alex</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(0)">
-                    <div class="image-box">
-                        <img src="../assets/abigail.jpg" class="image">
-                        <div data-id="Abigail" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Abigail</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(0)">
-                    <div class="image-box">
-                        <img src="../assets/abigail.jpg" class="image">
-                        <div data-id="Abigail" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Abigail</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(0)">
-                    <div class="image-box">
-                        <img src="../assets/abigail.jpg" class="image">
-                        <div data-id="Abigail" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Abigail</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(0)">
-                    <div class="image-box">
-                        <img src="../assets/abigail.jpg" class="image">
-                        <div data-id="Abigail" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Abigail</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(0)">
-                    <div class="image-box">
-                        <img src="../assets/abigail.jpg" class="image">
-                        <div data-id="Abigail" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Abigail</h4>
-                </div>
-            </div>
-                
-            <div id="profileOverlay" class="overlay">
-            <div class="overlay-content">
-                <button class="nav-arrow left" onclick="changeProfile(-1)">◀</button>
-                <button class="nav-arrow right" onclick="changeProfile(1)">▶</button>
-
-                <div class="profile-card">
-                    <div class="profile-left">
-                        <div class="image-box large">
-                            <img id="modalImg" src="" alt="">
-                        </div>
-                        <div id="modalHeart" class="heart big" onclick="toggleFavorite(this)">YOUR FAVORITE? ❤</div>
-                    </div>
-
-                    <div class="profile-right">
-                        <h4 id="modalName">-Name-</h4>
-                        <div class="scroll-details">
-                            <h5 id="modalDesc">Description</h5>
-                            <h5 id="modalBirthday"><strong>Birthday:</strong> <span></span></h5>
-                            <h5 id="modalClinic"><strong>Clinic Visit:</strong> <span></span></h5>
-                            <h5 id="modalFavs"><strong>Favorite Items:</strong> <ul></ul></h5>
-                            <h5 id="modalFamily"><strong>Family:</strong> <ul></ul></h5>
-                            <h5 id="modalAddress"><strong>Address:</strong> <span></span></h5>
-                        </div>
-                    </div>
-                    
-                    <button class="exit-btn" onclick="closeProfile()">EXIT</button>
-                </div>
-            </div>
-=======
-                        <img src="../assets/caroline.png" class="image">
-                        <div data-id="Caroline" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Caroline</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(1)">
-                    <div class="image-box">
-                        <img src="../assets/clint.png" class="image">
-                        <div data-id="Clint" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Clint</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(2)">
-                    <div class="image-box">
-                        <img src="../assets/evelyn.png" class="image">
-                        <div data-id="Evelyn" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Evelyn</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(3)">
-                    <div class="image-box">
-                        <img src="../assets/george.png" class="image">
-                        <div data-id="George" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>George</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(4)">
-                    <div class="image-box">
-                        <img src="../assets/gunther.png" class="image">
-                        <div data-id="Gunther" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Gunther</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(5)">
-                    <div class="image-box">
-                        <img src="../assets/gus.png" class="image">
-                        <div data-id="Gus" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Gus</h4>
-                </div>
             
-                <div class="char-card" onclick="openProfile(6)">
-                    <div class="image-box">
-                        <img src="../assets/jodi.png" class="image">
-                        <div data-id="Jodi" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Jodi</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(7)">
-                    <div class="image-box">
-                        <img src="../assets/kent.png" class="image">
-                        <div data-id="Kent" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Kent</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(8)">
-                    <div class="image-box">
-                        <img src="../assets/krobus.png" class="image">
-                        <div data-id="Krobus" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Krobus</h4>
-                </div>
-
-           
-
-                <div class="char-card" onclick="openProfile(9)">
-                    <div class="image-box">
-                        <img src="../assets/lewis.png" class="image">
-                        <div data-id="Lewis" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Lewis</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(10)">
-                    <div class="image-box">
-                        <img src="../assets/morris.png" class="image">
-                        <div data-id="Morris" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Morris</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(11)">
-                    <div class="image-box">
-                        <img src="../assets/pam.png" class="image">
-                        <div data-id="Pam" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Pam</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(12)">
-                    <div class="image-box">
-                        <img src="../assets/pierre.png" class="image">
-                        <div data-id="Pierre" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Pierre</h4>
-                </div>
-
-                <div class="char-card" onclick="openProfile(13)">
-                    <div class="image-box">
-                        <img src="../assets/vincent.png" class="image">
-                        <div data-id="Vincent" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Vincent</h4>
-                </div>
-
-        </div>
-
-        <div id="Mountains">
-        <h4>--Villagers in The Mountains--</h4>
-         <a href="#Start">
-            <h3>Click here to jump to start!</h3>
-        </a>
                 <div class="char-card" onclick="openProfile(14)">
                     <div class="image-box">
                         <img src="../assets/demetrius.png" class="image">
@@ -317,13 +242,17 @@
                     </div>
                     <h4>Robin</h4>
                 </div>
+            </div>
         </div>
 
         <div id="Cindersap Forest">
-        <h4>--Villagers in Cindersap Forest--</h4>
-         <a href="#Start">
-            <h3>Click here to jump to start!</h3>
-        </a>
+            <h4>--Villagers in Cindersap Forest--</h4>
+            <a href="#Start">
+                <h3>Click here to jump to start!</h3>
+            </a>
+
+            <div class="icons-grid">
+
                 <div class="char-card" onclick="openProfile(21)">
                     <div class="image-box">
                         <img src="../assets/jas.png" class="image">
@@ -347,23 +276,56 @@
                     </div>
                     <h4>Wizard</h4>
                 </div>
+            </div>
         </div>
 
         <div id="Beach">
         <h4>--Villagers in The Beach--</h4>
-         <a href="#Start">
-            <h3>Click here to jump to start!</h3>
-        </a>
-                <div class="char-card" onclick="openProfile(24)">
-                    <div class="image-box">
-                        <img src="../assets/willy.png" class="image">
-                        <div data-id="Willy" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
-                    </div>
-                    <h4>Willy</h4>
-                </div>
-        </div>
->>>>>>> a80e6c8b62f5f9aa79e387059c43cb044df88dd6
+            <a href="#Start">
+                <h3>Click here to jump to start!</h3>
+            </a>
 
+            <div class="icons-grid">
+                    <div class="char-card" onclick="openProfile(24)">
+                        <div class="image-box">
+                            <img src="../assets/willy.png" class="image">
+                            <div data-id="Willy" class="heart small" onclick="event.stopPropagation(); toggleFavorite(this)">❤</div>
+                        </div>
+                        <h4>Willy</h4>
+                    </div>
+            </div>
+        </div>
+    </div>    
+    
+     <div id="profileOverlay" class="overlay">
+            <div class="overlay-content">
+                <button class="nav-arrow left" onclick="changeProfile(-1)">◀</button>
+                <button class="nav-arrow right" onclick="changeProfile(1)">▶</button>
+
+                <div class="profile-card">
+                    <div class="profile-left">
+                        <div class="image-box large">
+                            <img id="modalImg" src="" alt="">
+                        </div>
+                        <div id="modalHeart" class="heart big" onclick="toggleFavorite(this)">YOUR FAVORITE? ❤</div>
+                    </div>
+
+                    <div class="profile-right">
+                        <h4 id="modalName">-Name-</h4>
+                        <div class="scroll-details">
+                            <h5 id="modalDesc">Description</h5>
+                            <h5 id="modalBirthday"><strong>Birthday:</strong> <span></span></h5>
+                            <h5 id="modalClinic"><strong>Clinic Visit:</strong> <span></span></h5>
+                            <h5 id="modalFavs"><strong>Favorite Items:</strong> <ul></ul></h5>
+                            <h5 id="modalFamily"><strong>Family:</strong> <ul></ul></h5>
+                            <h5 id="modalAddress"><strong>Address:</strong> <span></span></h5>
+                        </div>
+                    </div>
+                    
+                    <button class="exit-btn" onclick="closeProfile()">EXIT</button>
+                </div>
+            </div>
+        </div>
             
         </main>
 

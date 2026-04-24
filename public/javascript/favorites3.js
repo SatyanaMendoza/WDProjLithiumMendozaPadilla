@@ -102,7 +102,7 @@ const villagerData = [
         img: "../assets/jodi.jpg",
         desc:   "Jodi is a villager who lives in Pelican Town. She is married to Kent and together they have two sons, Sam and Vincent. Along with her best friend, Caroline, she attends exercise classes with some of the other Pelican Town ladies.",
         birthday: "Fall 11",
-        clinic: ["Summer 18","Spring 11 (with Vincent)"]
+        clinic: ["Summer 18","Spring 11 (with Vincent)"],
         favs: ["Chocolate Cake","Crispy Bass","Diamond","Eggplant Parmesan","Fried Eel","Pancakes","Rhubarb Pie","Vegetable Medley"],
         family: ["Kent (Husband)","Sam (Son)","Vincent (Son)"],
         address: "1 Willow Lane"
@@ -136,7 +136,7 @@ const villagerData = [
         id: "Lewis",
         name: "Lewis",
         img: "../assets/lewis.jpg",
-        desc:   "Lewis has held his position of mayor of Pelican Town for more than twenty years. Along with Robin, he is one of the first people to greet you in your arrival to Stardew Valley. Aside from being the mayor, he also participates in the Stardew Valley Agricultural Fund. He often sends you letters that include money from the fund "to help you continue your good work" in the farm.",
+        desc:   "Lewis has held his position of mayor of Pelican Town for more than twenty years. Along with Robin, he is one of the first people to greet you in your arrival to Stardew Valley. Aside from being the mayor, he also participates in the Stardew Valley Agricultural Fund. He often sends you letters that include money from the fund to help you continue your good work in the farm.",
         birthday: "Spring 7",
         clinic: "Fall 9",
         favs: ["Autumn's Bounty", "Glazed Yams", "Green Tea","Hot Pepper","Vegetable Medley"],
@@ -159,7 +159,7 @@ const villagerData = [
     {
         id: "Pam",
         name: "Pam",
-        img: "../assets/caroline.jpg",
+        img: "../assets/pam.jpg",
         desc:   "Pam is known to be an alcoholic, who would spike punch at a festival, wake up with a hang over, and spend most of her time at the Saloon. However, it is discovered that she used to drive the Pelican Town bus, and that she became upset when it broke down. Eventually, with your help, Pam is able to resume her duty in bus driving once the bus is repaired— unlocking the Desert for the villagers to visit.",
         birthday: "Spring 18",
         clinic: "Spring 25",
