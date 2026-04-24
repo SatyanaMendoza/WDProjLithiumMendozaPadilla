@@ -39,7 +39,7 @@ const bachelorData = [
     {
         id: "Elliott",
         name: "Elliott",
-        img: "../assets/elliott.jpg",
+        img: "../assets/elliot.jpg",
         desc:   "Elliott is a writer who lives alone on the Beach and is looking for inspiration for his next novel. He dreams of writing a magnificent novel one day. He is also a romantic who tends to speak in flowery poetry. When he can afford it, he enjoys a strong pito at the Saloon.",
         birthday: "Fall 5",
         clinic: "Summer 9",
