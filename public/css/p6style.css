@@ -261,50 +261,5 @@ font-weight: 700;
     justify-content: space-between;
   }
 
-  .icons-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    padding: 10px;
-  }
-
-  .profile-card {
-    flex-direction: column; 
-    padding: 20px;
-    width: 95%;
-    max-height: 85vh;
-    overflow-y: auto;
-    gap: 20px;
-    align-items: center;
-  }
-
-  .profile-right {
-    flex: none;
-    width: 100%;
-    max-height: none;
-    text-align: center;
-  }
-
-  .nav-arrow {
-    padding: 8px 12px;
-    font-size: 1.5rem;
-    top: 40%;
-  }
-
-  .nav-arrow.left { 
-    left: 5px; 
-  }
-
-  .nav-arrow.right { 
-    right: 5px; 
-  }
-
-  .exit-btn {
-    position: relative;
-    bottom: 0;
-    right: 0;
-    margin-top: 20px;
-    width: 100%;
-  }
-
 
 }
