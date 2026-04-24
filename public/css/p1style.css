@@ -9,11 +9,13 @@
 body {
 margin: 0;
 font-family: monospace;
-background: #f2d18b;
 color: #3b2a1a;
 height: 100vh; 
 display: flex;
 flex-direction: column;
+min-height: 100vh;
+background-color: #050e3f; 
+overflow-x: hidden;
 }
 
 .top-bar {
@@ -126,10 +128,12 @@ display: none;
 .content {
 display: flex;
 gap: 20px;
-padding: 20px;
 flex: 1;
 overflow-y: auto;
 flex-direction: column;
+position: relative;
+background: transparent;
+z-index: 1;
 }
 
 .heading {
@@ -147,6 +151,10 @@ margin: 40px auto;
 max-width: 1200px;
 width: 95%;
 align-items: center;
+background: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+padding: 30px;
+border-radius: 15px;
+border: 3px solid #6b3f1d;
 }
 
 .text {
@@ -178,6 +186,51 @@ border: 2px solid #ffffff;
 .image { 
 width: 90%; 
 margin: auto;
+}
+
+.bg-layer {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 80px);
+  z-index: -1
+  overflow-y: auto;
+}
+
+.bg-layer img {
+  display: block;
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+  position: relative;
+  margin-bottom: -25vh;
+  margin-top: 0;
+}
+
+.image1 {
+  z-index: 4;
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.image2 {
+  z-index: 3;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%);
+}
+
+.image3 {
+  z-index: 2;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%);
+}
+
+.image4 {
+  z-index: 1;
+  height: 100vh;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 100%);
 }
 
 .text h3 {

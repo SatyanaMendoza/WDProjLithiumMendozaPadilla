@@ -6,44 +6,45 @@
 <title>Gradient Photo Background</title>
 <style>
     body {
-        margin: 0;
-        height: 100vh;
-        background-color: #050e3f;
-    }
+    margin: 0;
+    min-height: 100vh;
+    background-color: #050e3f; 
+    overflow-x: hidden;
+}
 
-    .image1 {
-        position: absolute; 
-        z-index: 4;
-        height: 75vh;
-        width: 100vw;
-        mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0,0,0,0));
-        
-    }
-    .image2 {
-        position: relative;
-        z-index: 3;
-        top: 55vh;
-        height: 75vh;
-        width: 100vw;
-        mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
-    }
-    .image3 {
-        position: relative;
-        z-index: 2;
-        top: 45vh;
-        height: 75vh;
-        width: 100vw;
-        mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
-    }
+img {
+    display: block;
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    position: relative;
+    margin-bottom: -25vh; 
+}
 
-    .image4 {
-        position: relative;
-        z-index: 1;
-        top: 35vh;
-        height: 75vh;
-        width: 100vw;
-        mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
-    }
+.image1 {
+    z-index: 4;
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.image2 {
+    z-index: 3;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%);
+}
+
+.image3 {
+    z-index: 2;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%);
+}
+
+.image4 {
+    z-index: 1;
+    height: 100vh;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 100%);
+}
 </style>
 </head>
 <body>
